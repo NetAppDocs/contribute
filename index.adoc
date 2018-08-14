@@ -25,8 +25,6 @@ image:diagram_edit_on_github.png[Edit on GitHub]
 +
 The content is written in AsciiDoc, a Markdown language.
 +
-http://web.netapp.com/%7Ebcammett/AsciiDoc/cheat_sheet.html[AsciiDoc cheat sheet^]
-+
 image:diagram_pencil_icon.png[Pencil icon]
 .. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
 +

@@ -16,8 +16,6 @@ Steps
 
         The content is written in AsciiDoc, a Markdown language.  
 
-        [AsciiDoc cheat sheet](http://web.netapp.com/%7Ebcammett/AsciiDoc/cheat_sheet.html)  
-
         ![Pencil icon](media/diagram_pencil_icon.png)
 
     3. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.  
