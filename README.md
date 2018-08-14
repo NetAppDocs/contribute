@@ -11,6 +11,7 @@ Steps
     1. Click *Edit on GitHub* next to the topic title.  
 
       ![Edit on GitHub](media/diagram_edit_on_github.png)
+
     2. Click the pencil icon and start editing the content.  
 
       The content is written in AsciiDoc, a Markdown language.  
@@ -18,11 +19,13 @@ Steps
       [AsciiDoc cheat sheet](http://web.netapp.com/%7Ebcammett/AsciiDoc/cheat_sheet.html)  
 
       ![Pencil icon](media/diagram_pencil_icon.png)
+
     3. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.  
 
       GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.  
 
       ![Propose file change](media/diagram_propose_file_change.png)
+
     4. Provide a comment about the edit that you made, then click *Create pull request*.
 
       ![Create pull request](media/diagram_create_pull_requst.png)  
@@ -32,12 +35,14 @@ Steps
       You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
 
       ![Pull request tab](media/diagram_pull_request_tab.png)  
+
 5. To request changes for a topic:
     1. Click *Request doc changes* next to the topic title.
 
       ![Request doc changes](media/diagram_request_doc_changes.png)
 
       A text box appears, enabling you to provide request details.
+
     2. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
 
       The text box is prepopulated with the title and URL for the topic.  Do not delete this information.
