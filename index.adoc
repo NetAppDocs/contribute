@@ -1,0 +1,61 @@
+= Contributing to NetApp technical content through GitHub
+:toc: macro
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+
+[.lead]
+User documentation for several NetApp products is hosted from GitHub.  Anyone who has a GitHub account can contribute to the published content through GitHub.
+
+
+.Steps
+. If you do not already have a GitHub account, https://github.com/join[create one^] through github.com.
+. Log in to your GitHub account.
+. Using a browser, open the topic that you want to contribute.
++
+You can edit the topic directly or request changes for the topic.
+. To edit a topic:
+.. Click *Edit on GitHub* next to the topic title.
++
+image:diagram_edit_on_github.png[Edit on GitHub]
+.. Click the pencil icon and start editing the content.
++
+The content is written in AsciiDoc, a Markdown language.
++
+image:diagram_pencil_icon.png[Pencil icon]
+.. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
++
+GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.
++
+image:diagram_propose_file_change.png[Propose file change]
+.. Provide a comment about the edit that you made, then click *Create pull request*.
++
+image:diagram_create_pull_requst.png[Create pull request]
++
+After you propose the changes, NetApp Information Engineering will review your changes and merge them as appropriate to the GitHub repository to update the documentation.
++
+You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
++
+image:diagram_pull_request_tab.png[Pull request tab]
+
+
+. To request changes for a topic:
+.. Click *Request doc changes* next to the topic title.
++
+image:diagram_request_doc_changes.png[Request doc changes]
++
+A text box appears, enabling you to provide request details.
+.. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
++
+The text box is prepopulated with the title and URL for the topic.  Do not delete this information.
++
+image:diagram_submit_new_issue.png[Submit new issue]
++
+Opening an issue enables collaboration through GitHub comments. You receive email notifications based on the preferences you indicated in your GitHub account settings.
++
+You can also view the status of the request by clicking *Issues* on the top banner next to the GitHub search box:
++
+image:diagram_issues_tab.png[Issues tab]
