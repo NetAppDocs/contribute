@@ -5,6 +5,6 @@ branches:
   only:
   - master
 before_install:
-- sed -i 's/\/jekyll/\/'$REPO_NAME'/g' ./_config.yml
+- mv README.adoc index.adoc
 script:
 - bundle exec rake deploy
