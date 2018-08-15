@@ -1,0 +1,2 @@
+image:https://travis-ci.com/NetAppDocs/contribute.svg?branch=master["Build Status", link="https://travis-ci.com/NetAppDocs/contribute"]
+include::index.adoc[]
