@@ -14,8 +14,6 @@ before_install:
 - rm -rf dependencies/jekyll/*.md
 - mv dependencies/jekyll/* .
 - rm -rf dependencies
-- mv sidebar.yml _data/sidebars/
-- mv README.adoc index.adoc
 - sed -i 's/\/jekyll/\/'$REPO_NAME'/g' ./_config.yml
 - sed -i 's/^.*searchyll.*//g' ./Gemfile
 - sed -i 's/^.*searchyll.*//g' ./_config.yml;
