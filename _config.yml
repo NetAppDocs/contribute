@@ -1,0 +1,6 @@
+exclude: [Gemfile, Gemfile.lock, README.md, Rakefile]
+plugins:
+  - jekyll-asciidoc
+asciidoc:
+  processor: asciidoctor
+  ext: asciidoc,adoc,ad
