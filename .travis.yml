@@ -1,0 +1,10 @@
+sudo: false
+dist: trusty
+language: ruby
+branches:
+  only:
+  - master
+before_install:
+- sed -i 's/\/jekyll/\/'$REPO_NAME'/g' ./_config.yml
+script:
+- bundle exec rake deploy
