@@ -1,3 +1,8 @@
+---
+sidebar: exclude
+permalink: index.html
+---
+
 = Contributing to NetApp technical content through GitHub
 :toc: macro
 :hardbreaks:
@@ -24,6 +29,8 @@ image:diagram_edit_on_github.png[Edit on GitHub]
 .. Click the pencil icon and start editing the content.
 +
 The content is written in AsciiDoc, a lightweight markup language.
++
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc cheat sheet^]
 +
 image:diagram_pencil_icon.png[Pencil icon]
 .. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
