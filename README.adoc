@@ -42,7 +42,7 @@ image:diagram_propose_file_change.png[Propose file change]
 +
 image:diagram_create_pull_requst.png[Create pull request]
 +
-After you propose the changes, NetApp Information Engineering will review your changes and merge them as appropriate to the GitHub repository to update the documentation.
+After you propose the changes, we will review your changes and merge them as appropriate to the GitHub repository to update the documentation.
 +
 You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
 +
