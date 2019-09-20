@@ -1,0 +1,122 @@
+---
+sidebar: sidebar
+permalink: style.html
+---
+
+= Style guide for NetApp docs
+:toc: macro
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Our style is informal: conversational and empathetic, but to the point. Follow these guidelines when writing content for NetApp docs.
+
+== Write conversationally
+
+Don’t be so formal. Be friendly and empathetic. Speak like you’re explaining something to a friend or colleague. Writing in a conversational tone helps you connect with your audience.
+
+.Example
+
+**Rather than this**: “If you experience issues with Cloud Tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.”
+
+**Do this**: “Failures can happen. When they do, Cloud Tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure."
+
+== Get to the point by focusing on the user’s goal
+
+Start with what’s important to the user. Figure out what the customer is trying to do and help them achieve that goal.
+
+.Example
+
+**Rather than this**: “Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.”
+
+**Do this**: “If your business has strict security policies, sync data between NFS servers in different networks by using data-in-flight encryption.”
+
+== Create pages that focus on a goal or a specific topic
+
+If you're describing how to complete a series of tasks, put it all on one page in a series of sections. Don’t break it up into several mini-pages—that requires too much clicking. This is true for conceptual and reference-based information, as well.
+
+At the same time, don’t create long, intimidating pages. Use your best judgement to decide when a page is too long.
+
+.Examples
+
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
+* https://docs.netapp.com/us-en/occm/concept_ha.html[Example #2^]
+
+== Use simple words
+
+Avoid big and confusing words. They can bewilder, confound, and obfuscate. Just keep it simple.
+
+.Example
+
+**Rather than this**: “Dissociate the user from your NetApp Cloud Central account.”
+
+**Do this**: “Remove the user from your NetApp Cloud Central account.”
+
+== Use less words
+
+Write short, simple sentences. They’re easier to read and enable scanning. It’s okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
+
+.Example
+
+**Rather than this**: “To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the AWS VPC and the other network—for example, an Azure VNet or your corporate network.”
+
+**Do this**: “Data replication between networks requires a VPN connection. For example, between your AWS VPC and your corporate network. Or between AWS and Azure.”
+
+== Use visuals as much as possible
+
+Most people are visual learners. Use videos, conceptual diagrams, and screenshots to improve learning. They also help to break up walls of text—too much “blah, blah, blah.”
+
+.Examples
+
+* https://docs.netapp.com/us-en/occm/concept_accounts_and_permissions.html[Example #1^]
+* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html[Example #2^]
+
+== It’s okay to use contractions
+
+Yes. Really. Modern machine translation can handle contractions.
+
+.Examples
+
+**Rather than this**: “You do not need to create the Blob container. Cloud Tiering does that for you.”
+
+**Do this**: “You don't need to create the Blob container. Cloud Tiering does that for you.
+
+**Rather than this**: “The icon might be disabled. If it is, it is because the agent is offline, you do not have Owner privileges, or because you do not have a Premium license.”
+
+**Do this**: “The icon might be disabled. If it is, it's because the agent is offline, you don't have Owner privileges, or because you don't have a Premium license.”
+
+== Avoid passive sentences
+
+This is a standard rule for tech writing, and it’s especially important when you want to sound conversational.
+
+.Example
+
+**Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
+
+**Do this**: “Provide the required permissions before you deploy your first cluster.”
+
+== Create scannable content
+
+Use headings, lists, and tables to enable scanning.
+
+.Examples
+
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html[Example #2^]
+
+== Organize content around the user's goal
+
+Help users find the info they need when they need it. Get them in and out of the docs as quickly as possible, by organizing the content as follows:
+
+The first entry in the left-hand navigation (high level):: Organize around the overarching goals the user is trying to achieve. For example, getting started or protecting data.
+
+The second entries in the navigation (medium level):: Organize around the broad tasks that compose the overarching goals. For example, setting up disaster recovery or setting up data protection.
+
+Individual pages (detailed level):: Organize around the individual tasks that compose the broad tasks, with each one focusing on a single learning or doing aspect of that broad task. For example, the tasks required to set up disaster recovery.
+
+== Bonus tip
+
+Read your writing out loud. As Elmore Leonard said, “If it sounds like writing, I rewrite it.”
