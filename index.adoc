@@ -14,7 +14,7 @@ permalink: index.html
 [.lead]
 The documentation for several of NetApp's products and services are open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
 
-You can edit a page directly or request us to make the changes. If you need help with writing, use these resources:
+You can edit a page directly or request us to make the changes. If you need help with our writing style and syntax, use these resources:
 
 * link:asciidoc_syntax.html[Review syntax for the documentation source]
 * link:style.html[Review the style and voice for NetApp docs]
