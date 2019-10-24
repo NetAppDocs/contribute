@@ -1,0 +1,419 @@
+---
+sidebar: sidebar
+permalink: asciidoc_syntax.html
+---
+
+= AsciiDoc reference
+:toc: macro
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+AsciiDoc is a lightweight markup language, similar to Markdown. We chose AsciiDoc over standard Markdown because it provides more out-of-box capabilities. While it's more powerful, it's still simple to use. Refer to this page to get started writing in AsciiDoc.
+
+See the http://asciidoctor.org/docs/user-manual/[AsciiDoctor User Manual^] for additional help.
+
+== The basics
+
+You need to know a few things to contribute simple doc updates.
+
+=== Headings
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+===== Level 4 section
+....
+
+You can have only one page title, but you can have multiple section titles. For example, you might have three level 1 sections that include level 2 and 3 sections:
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+== Level 1 section
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+....
+
+=== Bold text
+
+....
+*Text*
+....
+
+=== Italic text
+
+....
+_Text_
+....
+
+=== Bulleted lists
+
+....
+* Item 1
++
+Continuation text for the previous list item.
+
+* Item 2
+** Item 2a
+
+* Item 3
+....
+
+TIP: The + is a list continuation. It keeps the text inline with the list item. Omitting the + affects the formatting of that line.
+
+=== Labeled lists
+
+....
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+
+or
+
+....
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+
+When you add [horizontal] above item 1, the label and description appear on the same line. That works well when you have very short descriptions.
+
+*Example without [horizontal]*
+
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+
+*Example with [horizontal]*
+
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+
+=== Steps
+
+....
+.Steps
+
+. Step 1
+
+. Step 2
++
+Info for step 2
+
+. Step 3
+.. Step 3a
+.. Step 3b
+
+. Step 4
+....
+
+TIP: The + is a list continuation. It keeps the text inline with the list item. Omitting the + affects the formatting of that line.
+
+=== Images
+
+....
+image::file.gif[alt text]
+....
+
+TIP: "alt text" means alternative text. It describes the image that appears on the page. The primary use is for visually-impaired users who use screen readers.
+
+=== Videos
+
+Hosted on YouTube:
+
+....
+video::id[youtube]
+....
+
+Hosted locally in GitHub:
+
+....
+video::file.mp4
+....
+
+=== Links
+
+The syntax that you use depends on what you're looking to:
+
+* <<Link to an external site>>
+* <<Link to a section on the same page>>
+* <<Link to another page in the docs>>
+
+==== Link to an external site
+
+....
+url[link text^]
+....
+
+The ^ opens the link in a new browser tab.
+
+==== Link to a section on the same page
+
+....
+<<section_title>>
+....
+
+For example:
+
+....
+For more details, see <<Headings>>.
+....
+
+The link text can be something other than the section title:
+
+....
+<<section_title,Different link text>>
+....
+
+For example:
+
+....
+<<Headings,Learn the syntax for headings>>.
+....
+
+==== Link to another page in the docs
+
+The file needs to be in the same GitHub repository:
+
+....
+link:<file_name>.html[Link text]
+....
+
+To link directly to a section in the file, add a hash (#) and the section's title:
+
+....
+link:<file_name>.html#<section-name-using-dashes-and-all-lower-case>[Link text]
+....
+
+For example:
+
+....
+link:style.html#use-simple-words[Use simple words]
+....
+
+== Advanced stuff
+
+If you're authoring new content, you'll want to review this section for some nitty-gritty details.
+
+=== Document headers
+
+Each AsciiDoc file includes two types of headers. The first is for GitHub and the second is for AsciiDoctor, which is the publishing tool that turns the AsciiDoc content into HTML.
+
+The GitHub header is the very first set of content in the .adoc file. It needs to include the following:
+
+....
+---
+sidebar: sidebar
+permalink: <file_name>.html
+keywords: keyword1, keyword2, keyword3, keyword4, keyword5
+summary: A summary.
+---
+....
+
+The keywords and summary directly affect search results. In fact, the summary itself displays in the search results. You should make sure that it's user friendly. The best practice is to have the summary mirror your lead paragraph.
+
+The next header goes directly underneath the document title (see <<Headings>>). This header should include the following:
+
+....
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+....
+
+You won't need to touch any of the parameters in this heading. Just paste it in and forget it.
+
+=== Lead paragraph
+
+The first paragraph that appears under the document title should include the following syntax directly above it:
+
+....
+[.lead]
+This is my lead paragraph for this content.
+....
+
+[.lead] applies CSS formatting to the lead paragraph, which has a different format than the text that follows it.
+
+=== Tables
+
+Here's syntax for a basic table:
+
+....
+[cols=2*,options="header",cols="25,75"]
+|===
+| heading column 1
+| heading column 2
+| row 1 column 1 | row 1 column 2
+| row 2 column 1 | row 2 column 2
+|===
+....
+
+There are _many_ ways to format a table. Refer to the https://asciidoctor.org/docs/user-manual/#tables[AsciiDoctor User Manual^] for additional help.
+
+=== Task headings
+
+If you're explaining how to perform a task, you might include introductory information before you get to the steps. And you might need to say what to do after completing the steps. If you do, it's best to organize that information using headers, which enables scanning.
+
+Use the following headings as needed:
+
+.What you'll need
+.About this task
+.Steps
+.What's next?
+
+Each of these should include a . right before the text, like so:
+
+....
+.What you'll need
+.About this task
+.Steps
+.What's next?
+....
+
+This syntax applies bold text in a larger font.
+
+=== Command syntax
+
+When providing command input, enclose the command within ` to apply monospace font:
+
+....
+`volume show -is-encrypted true`
+....
+
+Here's what that looks like:
+
+`volume show -is-encrypted true`
+
+For command output or command examples, use the following syntax:
+
+....
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+....
+
+The four dashes enable you to enter separate lines of text that appear together.
+Here's the result:
+
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+
+=== Code syntax highlighting
+
+Code syntax highlighting provides a developer-focused solution for documenting the most popular languages.
+
+*Output example 1*
+
+[source,http]
+POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "<user_email>",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "<user_password>"
+}
+
+*Output example 2*
+
+[source,json]
+[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]
+
+*Supported languages*
+
+* bash
+* curl
+* https
+* json
+* powershell
+* puppet
+* python
+* yaml
+
+*Implementation*
+
+Copy and paste the following syntax and then add a supported language and the code:
+
+....
+[source,<language>]
+<code>
+....
+
+For example:
+
+....
+[source,curl]
+curl -s https:///v1/ \
+-H accept:application/json \
+-H "Content-type: application/json" \
+-H api-key: \
+-H secret-key: \
+-X [GET,POST,PUT,DELETE]
+....
+
+=== Images with links
+
+You can add a link to an image so it acts like a "button."
+
+*Output example*
+
+image::image_with_link.gif[An image of a button that says "View in Documentation Center"]
+
+Use the following syntax when adding your image:
+
+....
+image:<file_name>.<ext>[alt=<text>,link=<url>,window=_blank]
+....
+
+"window=_blank" opens the link in a new browser tab (or window).
+
+For example:
+
+....
+image:btn-view-in-doc-center.png[alt=A button titled View in Documentation Center that links to the NetApp HCI Doc Center,link=http://docs.netapp.com/hci/index.jsp,window=_blank]
+....

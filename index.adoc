@@ -1,9 +1,9 @@
 ---
-sidebar: exclude
+sidebar: sidebar
 permalink: index.html
 ---
 
-= Contributing to NetApp technical content through GitHub
+= Contribute to NetApp technical content in GitHub
 :toc: macro
 :hardbreaks:
 :nofooter:
@@ -11,26 +11,30 @@ permalink: index.html
 :linkattrs:
 :imagesdir: ./media/
 
-
 [.lead]
-User documentation for several NetApp products is hosted from GitHub.  Anyone who has a GitHub account can contribute to the published content through GitHub.
+The documentation for several of NetApp's products and services are open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
 
+You can edit a page directly or request us to make the changes. If you need help with our writing style and syntax, use these resources:
+
+* link:asciidoc_syntax.html[Review syntax for the documentation source]
+* link:style.html[Review the style and voice for NetApp docs]
 
 .Steps
-. If you do not already have a GitHub account, https://github.com/join[create one^] through github.com.
+
+. If you don't already have a GitHub account, https://github.com/join[create one from github.com^].
 . Log in to your GitHub account.
-. Using a browser, open the topic that you want to contribute.
+. Using a browser, open the page that you want to contribute.
 +
-You can edit the topic directly or request changes for the topic.
-. To edit a topic:
-.. Click *Edit on GitHub* next to the topic title.
+You can edit the page directly or request changes to the page.
+. To edit a page:
+.. Click *Edit on GitHub* next to the page title.
 +
 image:diagram_edit_on_github.png[Edit on GitHub]
 .. Click the pencil icon and start editing the content.
 +
 The content is written in AsciiDoc, a lightweight markup language.
 +
-https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc cheat sheet^]
+link:asciidoc_syntax.html[AsciiDoc cheat sheet^]
 +
 image:diagram_pencil_icon.png[Pencil icon]
 .. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
@@ -42,22 +46,22 @@ image:diagram_propose_file_change.png[Propose file change]
 +
 image:diagram_create_pull_requst.png[Create pull request]
 +
-After you propose the changes, we will review your changes and merge them as appropriate to the GitHub repository to update the documentation.
+After you propose the changes, we'll review them and merge the changes into the GitHub repository.
 +
 You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
 +
 image:diagram_pull_request_tab.png[Pull request tab]
 
-
-. To request changes for a topic:
-.. Click *Request doc changes* next to the topic title.
+. To request changes to a page:
+.. Click *Request doc changes* next to the page title.
 +
 image:diagram_request_doc_changes.png[Request doc changes]
 +
 A text box appears, enabling you to provide request details.
+
 .. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
 +
-The text box is prepopulated with the title and URL for the topic.  Do not delete this information.
+The text box is prepopulated with the title and URL for the page. Don't delete this information.
 +
 image:diagram_submit_new_issue.png[Submit new issue]
 +
