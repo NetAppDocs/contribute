@@ -215,11 +215,17 @@ link:style.html#use-simple-words[Use simple words]
 
 You might want to draw attention to certain statements by creating notes or tips. Format them as follows:
 
-* NOTE: text
-* TIP: text
-* IMPORTANT: text
-* CAUTION: text
-* WARNING: text
+....
+NOTE: text
+
+TIP: text
+
+IMPORTANT: text
+
+CAUTION: text
+
+WARNING: text
+....
 
 Use each of these sparingly. You don't want to create pages that are full of notes and tips. They become less meaningful if you do.
 
