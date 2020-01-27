@@ -71,7 +71,7 @@ Most people are visual learners. Use videos, conceptual diagrams, and screenshot
 
 .Examples
 
-* https://docs.netapp.com/us-en/occm/concept_accounts_and_permissions.html[Example #1^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1^]
 * https://docs.netapp.com/us-en/occm/task_getting_started_azure.html[Example #2^]
 
 == It’s okay to use contractions
