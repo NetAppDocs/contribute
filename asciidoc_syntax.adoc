@@ -443,7 +443,11 @@ You can add a link to an image so it acts like a "button."
 
 *Output example*
 
+In the following screenshot, "View in Documentation Center" is an image that contains a link.
+
 image::image_with_link.gif[An image of a button that says "View in Documentation Center"]
+
+*Syntax*
 
 Use the following syntax when adding your image:
 
