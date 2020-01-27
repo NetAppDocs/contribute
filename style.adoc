@@ -55,7 +55,7 @@ Avoid big and confusing words. They can bewilder, confound, and obfuscate. Just 
 
 **Do this**: “Remove the user from your NetApp Cloud Central account.”
 
-== Use less words
+== Use fewer words
 
 Write short, simple sentences. They’re easier to read and enable scanning. It’s okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
 
@@ -71,7 +71,7 @@ Most people are visual learners. Use videos, conceptual diagrams, and screenshot
 
 .Examples
 
-* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_and_permissions.html[Example #1^]
 * https://docs.netapp.com/us-en/occm/task_getting_started_azure.html[Example #2^]
 
 == It’s okay to use contractions
