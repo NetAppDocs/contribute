@@ -12,6 +12,6 @@ before_install:
 - mv dependencies/jekyll/prod-build.sh ./ && ./prod-build.sh
 - sed -i 's/^.*searchyll.*//g' ./Gemfile
 - sed -i 's/^.*searchyll.*//g' ./_config.yml;
-- sed -i 's/search\:\s*true/search\:\ false/g' ./_config.yml
+- sed -i 's/search\:\s*true/search\:\ exclude/g' ./_config.yml
 script:
 - bundle exec rake deploy
