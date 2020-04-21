@@ -14,4 +14,5 @@ before_install:
 - sed -i 's/^.*searchyll.*//g' ./_config.yml;
 - sed -i 's/search\:\s*true/search\:\ false/g' ./_config.yml
 script:
+- if [[ ! -z "$FEATURE_FLAG" ]]; then bundle exec rake buildAll; fi
 - bundle exec rake deploy
