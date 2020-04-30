@@ -453,11 +453,11 @@ It can be a sentence, a list, a table, one or more sections, and so on. Don't in
 
 . If you're reusing the content from within the _same_ GitHub repository, use the following syntax on a line by itself:
 +
- include::/_include/<filename>.adoc[]
+ include::_include/<filename>.adoc[]
 +
 For example:
 +
- include::/_include/s3regions.adoc[]
+ include::_include/s3regions.adoc[]
 
 . If you're reusing the content in a _different_ repository, use the following syntax on a line by itself:
 +
