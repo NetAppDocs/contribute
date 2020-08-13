@@ -326,7 +326,7 @@ Don’t use “if not” by itself to refer to the previous sentence:
 * Consider using imperative voice to replace passive voice:
 +
 **Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
-
++
 **Do this**: “Provide the required permissions before you deploy your first cluster.”
 * Avoid using imperative voice to embed steps in conceptual and reference information.
 
