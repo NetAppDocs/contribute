@@ -17,6 +17,7 @@ Our style is conversational and empathetic, but we stay professional and get to 
 == Write conversationally
 
 Write like you speak when you’re explaining something to a professional colleague. Writing in a conversational tone helps you connect with your audience.
+
 TIP: Read your writing out loud. As Elmore Leonard, an American novelist and screenwriter, said, “If it sounds like writing, I rewrite it.”
 
 |===
