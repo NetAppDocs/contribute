@@ -309,6 +309,7 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 Don’t use “if not” by itself to refer to the previous sentence:
 
 **Rather than this**: “The computer should be off. If not, turn it off.”
+
 **Do this**: "Verify that the computer is off."
 
 === if (versus “whether” or “when”)
