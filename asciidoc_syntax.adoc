@@ -301,6 +301,11 @@ Here's syntax for a basic table:
 
 There are _many_ ways to format a table. Refer to the https://asciidoctor.org/docs/user-manual/#tables[AsciiDoctor User Manual^] for additional help.
 
+TIP: If a cell contains formatted content like bulleted lists, it's best to add an "a" in the column header to enable formatting. For example:
+ [cols="2,2,4a" options="header"]
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables[See the AsciiDoc Syntax Quick Reference for more table examples^].
+
 === Task headings
 
 If you're explaining how to perform a task, you might include introductory information before you get to the steps. And you might need to say what to do after completing the steps. If you do, it's best to organize that information using headers, which enables scanning.
