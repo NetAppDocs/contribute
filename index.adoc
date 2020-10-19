@@ -27,7 +27,7 @@ You can edit a page directly or request us to make the changes. If you need help
 +
 You can edit the page directly or request changes to the page.
 . To edit a page:
-.. Click *Edit on GitHub* next to the page title.
+.. Under Contribute, click *Edit on GitHub*.
 +
 image:diagram_edit_on_github.png[Edit on GitHub]
 .. Click the pencil icon and start editing the content.
@@ -53,7 +53,7 @@ You can also view the status of the pull request by clicking *Pull requests* on 
 image:diagram_pull_request_tab.png[Pull request tab]
 
 . To request changes to a page:
-.. Click *Request doc changes* next to the page title.
+.. Under Contribute, click *Request doc changes*.
 +
 image:diagram_request_doc_changes.png[Request doc changes]
 +
