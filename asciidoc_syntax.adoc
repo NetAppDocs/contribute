@@ -301,6 +301,11 @@ Here's syntax for a basic table:
 
 There are _many_ ways to format a table. Refer to the https://asciidoctor.org/docs/user-manual/#tables[AsciiDoctor User Manual^] for additional help.
 
+TIP: If a cell contains formatted content like bulleted lists, it's best to add an "a" in the column header to enable formatting. For example:
+ [cols="2,2,4a" options="header"]
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables[See the AsciiDoc Syntax Quick Reference for more table examples^].
+
 === Task headings
 
 If you're explaining how to perform a task, you might include introductory information before you get to the steps. And you might need to say what to do after completing the steps. If you do, it's best to organize that information using headers, which enables scanning.
@@ -436,6 +441,40 @@ curl -s https:///v1/ \
 -H secret-key: \
 -X [GET,POST,PUT,DELETE]
 ....
+
+=== Content reuse
+
+If you have a chunk of content that's repeated across different pages, you can easily write it once and reuse it across those pages. Reuse is possible from within the same repository and across repositories. Here's how it works.
+
+. Create a folder in your repository named _include
++
+https://github.com/NetAppDocs/cloud-tiering[For example, take a look at the Cloud Tiering repository^].
+
+. Add a .adoc file in that folder that includes the content that you'd like to reuse.
++
+It can be a sentence, a list, a table, one or more sections, and so on. Don't include anything else in the file--no headers or anything.
+
+. Now go to the files where you'd like to reuse that content.
+
+. If you're reusing the content from within the _same_ GitHub repository, use the following syntax on a line by itself:
++
+ include::_include/<filename>.adoc[]
++
+For example:
++
+ include::_include/s3regions.adoc[]
+
+. If you're reusing the content in a _different_ repository, use the following syntax on a line by itself:
++
+ include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/master/_include/<filename>.adoc[]
++
+For example:
++
+ include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/master/_include/s3regions.adoc[]
+
+That's it!
+
+If you want to learn more about the include directive, https://asciidoctor.org/docs/user-manual/#include-directive[check out the AsciiDoctor User Manual^].
 
 === Images with links
 
