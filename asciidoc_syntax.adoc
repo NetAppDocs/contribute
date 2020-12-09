@@ -211,20 +211,16 @@ For example:
 link:style.html#use-simple-words[Use simple words]
 ....
 
-=== Notes, tips, etc.
+=== Notes, tips, and cautions.
 
-You might want to draw attention to certain statements by creating notes or tips. Format them as follows:
+You might want to draw attention to certain statements by using notes, tips, or caution statements. Format them as follows:
 
 ....
 NOTE: text
 
 TIP: text
 
-IMPORTANT: text
-
 CAUTION: text
-
-WARNING: text
 ....
 
 Use each of these sparingly. You don't want to create pages that are full of notes and tips. They become less meaningful if you do.
@@ -233,13 +229,9 @@ Here's what each of these looks like when the AsciiDoc content is turned into HT
 
 NOTE: This is a note. It includes extra info that a reader might need to know.
 
-TIP: Here's a tip. A tip provides useful information that can help a user do something or understand something.
-
-IMPORTANT: This is important information that the reader must be aware of so they don't do something that they shouldn't.
+TIP: A tip provides useful information that can help a user do something or understand something.
 
 CAUTION: A caution advises the reader to act carefully. Use this in rare circumstances.
-
-WARNING: And this is a warning that informs of danger or harm. This one should be used very rarely, as well.
 
 == Advanced stuff
 
