@@ -458,11 +458,11 @@ For example:
 
 . If you're reusing the content in a _different_ repository, use the following syntax on a line by itself:
 +
- include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/master/_include/<filename>.adoc[]
+ include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
 For example:
 +
- include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/master/_include/s3regions.adoc[]
+ include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
 
 That's it!
 
