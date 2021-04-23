@@ -132,10 +132,12 @@ TIP: The + is a list continuation. It keeps the text inline with the list item. 
 === Images
 
 ....
-image::file.gif[alt text]
+image::file.gif["alt text"]
 ....
 
-TIP: "alt text" means alternative text. It describes the image that appears on the page. The primary use is for visually-impaired users who use screen readers.
+_alt text_ means alternative text. It describes the image that appears on the page. The primary use is for visually-impaired users who use screen readers.
+
+TIP: It's best to enclose alt text in quotes because punctuation like commas can affect the ability to transform the content from AsciiDoc to HTML.
 
 === Videos
 
@@ -211,7 +213,7 @@ For example:
 link:style.html#use-simple-words[Use simple words]
 ....
 
-=== Notes, tips, and cautions.
+=== Notes, tips, and cautions
 
 You might want to draw attention to certain statements by using notes, tips, or caution statements. Format them as follows:
 
@@ -248,11 +250,13 @@ The GitHub header is the very first set of content in the .adoc file. It needs t
 sidebar: sidebar
 permalink: <file_name>.html
 keywords: keyword1, keyword2, keyword3, keyword4, keyword5
-summary: A summary.
+summary: "A summary."
 ---
 ....
 
 The keywords and summary directly affect search results. In fact, the summary itself displays in the search results. You should make sure that it's user friendly. The best practice is to have the summary mirror your lead paragraph.
+
+TIP: It's best to enclose the summary in quotes because punctuation like colons can affect the ability to transform the content from AsciiDoc to HTML.
 
 The next header goes directly underneath the document title (see <<Headings>>). This header should include the following:
 
@@ -365,6 +369,16 @@ Vserver  Volume  Aggregate  State  Type  Size  Available  Used
 -------  ------  ---------  -----  ----  -----  --------- ----
 vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
 ----
+
+=== Variable text
+
+In commands and command output, enclose variable text within underscores to apply italics.
+
+....
+`vserver nfs modify -vserver _name_ -showmount enabled`
+....
+
+NOTE: Underscores aren't supported with code syntax highlighting at this time.
 
 === Code syntax highlighting
 
