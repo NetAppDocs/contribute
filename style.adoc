@@ -76,6 +76,14 @@ Avoiding passive voice is a standard rule for tech writing, but it’s especiall
 
 See also <<active voice (versus “passive voice”)>>.
 
+== Use inclusive language
+
+NetApp believes that its product documentation should not contain discriminatory, exclusive language. The words that we use can make a difference between forging a positive relationship with our customers or alienating them. Especially with written words, impact is more important than intent.
+
+As you create content for NetApp products, avoid language that can be interpreted as degrading, racist, sexist, or otherwise oppressive. Instead, use language that is accessible and welcoming to everyone who needs to use the documentation. For example, instead of "master/slave" use "primary/secondary."
+
+We know that we have work to do in order to remove all non-inclusive language from our documentation and our products. We're actively working on our standards and best practices and expect to update this section with additional guidance in the future.
+
 == Get to the point
 
 Start with what’s important to the user. Find out what the user is trying to do and focus on helping them achieve that goal.
