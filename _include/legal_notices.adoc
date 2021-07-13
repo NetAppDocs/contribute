@@ -1,3 +1,17 @@
+---
+sidebar: sidebar
+permalink: legal_notices.html
+keywords: copyrights, notice, trademarks, patents, privacy, open source
+summary: Legal notices provide access to copyright statements, trademarks, patents, and more.
+---
+
+= Legal notices
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
 [.lead]
 Legal notices provide access to copyright statements, trademarks, patents, and more.
 
