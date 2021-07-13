@@ -302,6 +302,67 @@ TIP: If a cell contains formatted content like bulleted lists, it's best to add 
 
 https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables[See the AsciiDoc Syntax Quick Reference for more table examples^].
 
+=== Tabbed block
+If you're explaining a task in multiple flavors or code in multiple languages, you might want to use a tabbed block. Tabbed blocks are a NetApp custom AsciiDoc extension, and supports other AsciiDoc syntax within each tab. 
+
+Here's syntax for a basic tabbed block: 
+
+....
+[role="tabbed-block"]
+====
+.Tab Title 1
+--
+Tab 1 content
+--
+
+.Tab Title 2
+--
+Tab 2 content
+--
+
+.Tab Title 3
+--
+Tab 3 content
+--
+
+====
+....
+
+To specify code examples in different languages: 
+
+....
+[role="tabbed-block"]
+====
+.Java
+--
+This is how to print out a String in Java.
+[source, java, indent=0]
+----
+System.out.println("Hello, world!");
+----
+--
+
+.JavaScript
+--
+This is how to print out a String in JavaScript.
+[source, javascript, indent=0]
+----
+console.log("Hello, world!");
+----
+--
+
+.Python
+--
+This is how to print out a String in Python.
+[source, python, indent=0]
+----
+print("Hello, world!");
+----
+--
+
+====
+....
+
 === Task headings
 
 If you're explaining how to perform a task, you might include introductory information before you get to the steps. And you might need to say what to do after completing the steps. If you do, it's best to organize that information using headers, which enables scanning.
