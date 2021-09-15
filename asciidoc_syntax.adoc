@@ -378,6 +378,10 @@ In commands and command output, enclose variable text within underscores to appl
 `vserver nfs modify -vserver _name_ -showmount enabled`
 ....
 
+Here's what that command and the variable text looks like:
+
+`vserver nfs modify -vserver _name_ -showmount enabled`
+
 NOTE: Underscores aren't supported with code syntax highlighting at this time.
 
 === Code syntax highlighting
