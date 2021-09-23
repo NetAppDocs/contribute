@@ -21,7 +21,7 @@ jobs:
       - sed -i 's/search\:\s*true/search\:\ exclude/g' ./_config.yml
       script:
       - if [[ ! -z "$FEATURE_FLAG" ]]; then bundle exec rake buildAll; fi
-      - mkdir -p /tmp/output && bundle exec jekyll build --trace --destination /tmp/output
+      - mkdir -p /tmp/output && bundle exec jekyll build --destination /tmp/output --config _config.yml,project.yml
       - touch /tmp/output/.nojekyll
       deploy:
         provider: pages
