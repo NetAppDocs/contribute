@@ -12,7 +12,7 @@ permalink: index.html
 :imagesdir: ./media/
 
 [.lead]
-The documentation for NetApp's products and services are open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
+The documentation for NetApp's products and services is open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
 
 == Overview
 
