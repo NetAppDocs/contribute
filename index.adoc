@@ -12,54 +12,45 @@ permalink: index.html
 :imagesdir: ./media/
 
 [.lead]
-The documentation for several of NetApp's products and services are open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
+The documentation for NetApp's products and services are open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
 
-You can edit a page directly or request us to make the changes. If you need help with our writing style and syntax, use these resources:
+== Contribution overview
 
-* link:asciidoc_syntax.html[Review syntax for the documentation source]
-* link:style.html[Review the style and voice for NetApp docs]
+You can contribute to our docs by using the following options:
+
+* Click *Request doc changes* to submit general feedback or to ask a question about the content. The NetApp content lead then reviews your request to determine what changes are needed to the docs. This is the most common option.
++
+<<Request doc changes,View step-by-step instructions for this option>>.
+
+* Click *Edit on GitHub* to directly edit the content yourself. The NetApp content lead then reviews your edits and merges them.
++
+View step-by-step instructions for this option.
++
+<<Submit edits to the docs,View step-by-step instructions for this option>>.
+
+== Request doc changes
+
+Submitting a request for doc changes is the most common way to contribute to NetApp docs. After you submit the request, the content lead will get back to you to confirm that they've received the feedback. You'll get an email notification from GitHub when they do.
+
+If the content lead agrees that your suggestion will help make the content better, they will commit the change shortly after that. You'll receive another notification that your feedback was incorporated.
+
+TIP: All comments that you provide are publicly visible. Anyone who navigates to the issues in the repo can see your comments.
 
 .Steps
 
 . If you don't already have a GitHub account, https://github.com/join[create one from github.com^].
-. Log in to your GitHub account.
-. Using a browser, open the page that you want to contribute.
-+
-You can edit the page directly or request changes to the page.
-. To edit a page:
-.. Under Contribute, click *Edit on GitHub*.
-+
-image:diagram_edit_on_github.png[Edit on GitHub]
-.. Click the pencil icon and start editing the content.
-+
-The content is written in AsciiDoc, a lightweight markup language.
-+
-link:asciidoc_syntax.html[AsciiDoc cheat sheet^]
-+
-image:diagram_pencil_icon.png[Pencil icon]
-.. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
-+
-GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.
-+
-image:diagram_propose_file_change.png[Propose file change]
-.. Provide a comment about the edit that you made, then click *Create pull request*.
-+
-image:diagram_create_pull_requst.png[Create pull request]
-+
-After you propose the changes, we'll review them and merge the changes into the GitHub repository.
-+
-You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
-+
-image:diagram_pull_request_tab.png[Pull request tab]
 
-. To request changes to a page:
-.. Under Contribute, click *Request doc changes*.
+. Log in to your GitHub account.
+
+. Using a browser, open the page that you want to contribute.
+
+. Under Contribute, click *Request doc changes*.
 +
 image:diagram_request_doc_changes.png[Request doc changes]
 +
 A text box appears, enabling you to provide request details.
 
-.. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
+. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
 +
 The text box is prepopulated with the title and URL for the page. Don't delete this information.
 +
@@ -70,3 +61,50 @@ Opening an issue enables collaboration through GitHub comments. You receive emai
 You can also view the status of the request by clicking *Issues* on the top banner next to the GitHub search box:
 +
 image:diagram_issues_tab.png[Issues tab]
+
+== Submit edits to the docs
+
+If you're comfortable, you can submit the exact doc changes that you'd like to see by editing the source file.
+
+As an outside contributor, you won't be able to publish the change directly. The content lead will review the changes, make any required edits, and then merge the changes. You'll get an email notification from GitHub when this happens.
+
+If you need help with our writing style and syntax, you use these resources:
+
+* link:style.html[Style guide for NetApp docs]
+* link:asciidoc_syntax.html[AsciiDoc syntax]
+
+.Steps
+
+. If you don't already have a GitHub account, https://github.com/join[create one from github.com^].
+
+. Log in to your GitHub account.
+
+. Using a browser, open the page that you want to contribute.
+
+. Under Contribute, click *Edit on GitHub*.
++
+image:diagram_edit_on_github.png[Edit on GitHub]
+
+. Click the pencil icon and start editing the content.
++
+The content is written in AsciiDoc, a lightweight markup language.
++
+link:asciidoc_syntax.html[AsciiDoc cheat sheet^]
++
+image:diagram_pencil_icon.png[Pencil icon]
+
+. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
++
+GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.
++
+image:diagram_propose_file_change.png[Propose file change]
+
+. Provide a comment about the edit that you made, then click *Create pull request*.
++
+image:diagram_create_pull_requst.png[Create pull request]
++
+After you propose the changes, we'll review them and merge the changes into the GitHub repository.
++
+You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
++
+image:diagram_pull_request_tab.png[Pull request tab]
