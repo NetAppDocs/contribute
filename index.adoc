@@ -12,7 +12,7 @@ permalink: index.html
 :imagesdir: ./media/
 
 [.lead]
-The documentation for NetApp's products and services is open source. This enables you to directly contribute to the content to make improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
+The documentation for NetApp's products and services is open source. This enables you to contribute to the content by making improvements, corrections, and suggestions. All you need is a GitHub account and a little initiative.
 
 == Overview
 
@@ -28,11 +28,11 @@ You can contribute to our docs by using the following options:
 
 == Request doc changes
 
-Submitting a request for doc changes is the most common way to contribute to NetApp docs. After you submit the request, the content lead will confirm that they've received your feedback. You'll get an email notification from GitHub when they do.
+Submitting a request for a doc change is the most common way to contribute to NetApp docs. After you submit the request, the content lead will confirm that they've received your feedback. You'll get an email notification from GitHub when they do.
 
-If the content lead agrees that your suggestion will help make the content better, they will commit the change shortly after that. You'll receive another notification that your feedback was incorporated.
+If the content lead agrees that your suggestion can make the content better, they will commit the change shortly after that. You'll receive another notification that your feedback was incorporated.
 
-TIP: All comments that you provide are publicly visible. Anyone who navigates to the issues in the repo can see your comments.
+TIP: All comments that you provide are publicly visible. Anyone who navigates to the issues in the GitHub repo can see your comments.
 
 .Steps
 
@@ -40,21 +40,25 @@ TIP: All comments that you provide are publicly visible. Anyone who navigates to
 
 . Log in to your GitHub account.
 
-. Using a browser, open the page related to your feedback.
+. Using your web browser, open the page on https://docs.netapp.com[docs.netapp.com] that's related to your feedback.
 
 . Under Contribute, click *Request doc changes*.
 +
 image:diagram_request_doc_changes.png[Request doc changes]
 +
-A text box appears, enabling you to provide request details.
+A new browser tab opens with a form that you can use to provide details about your request.
 
-. Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
+. Enter a title and then provide details about your request.
 +
-The text box is prepopulated with the title and URL for the page. Don't delete this information.
+The comment field is prepopulated with the title and URL for the page. Don't delete this information because we'll need it to understand your request.
 +
 image:diagram_submit_new_issue.png[Submit new issue]
-+
-Opening an issue enables collaboration through GitHub comments. You receive email notifications based on the preferences you indicated in your GitHub account settings.
+
+. Click *Submit new issue* to create an issue for your request.
+
+.After you're done
+
+Opening an issue enables collaboration through GitHub comments. You'll receive email notifications based on the preferences that you indicated in your GitHub account settings.
 +
 You can also view the status of the request by clicking *Issues* on the top banner next to the GitHub search box:
 +
@@ -62,7 +66,7 @@ image:diagram_issues_tab.png[Issues tab]
 
 == Submit edits to the docs
 
-If you're comfortable, you can submit the exact doc changes that you'd like to see by directly editing the source file.
+If you're comfortable editing the content yourself, you can submit the exact doc changes that you'd like to see by directly editing the source file.
 
 As an outside contributor, you won't be able to publish the change directly. The content lead will review the changes, make any required edits, and then merge the changes. You'll get an email notification from GitHub when this happens.
 
@@ -77,21 +81,25 @@ If you need help with our writing style and syntax, you can use these resources:
 
 . Log in to your GitHub account.
 
-. Using a browser, open the page that you want to edit.
+. Using your web browser, open the page on https://docs.netapp.com[docs.netapp.com] that you want to edit.
 
 . Under Contribute, click *Edit on GitHub*.
 +
 image:diagram_edit_on_github.png[Edit on GitHub]
 
-. Click the pencil icon and start editing the content.
-+
-The content is written in AsciiDoc, a lightweight markup language.
-+
-link:asciidoc_syntax.html[AsciiDoc cheat sheet^]
+. Click the pencil icon.
 +
 image:diagram_pencil_icon.png[Pencil icon]
 
-. To commit changes, scroll down the page, select *Create a new branch for this commit and start a pull request*, then click *Propose file change*.
+. Edit the content.
++
+The content is written in AsciiDoc, a lightweight markup language. Learn about link:asciidoc_syntax.html[AsciiDoc syntax^].
+
+. To commit your changes, scroll down the page and fill out the form:
+
+.. Enter a title and optional description
+.. Select *Create a new branch for this commit and start a pull request
+.. Click *Propose changes*.
 +
 GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.
 +
@@ -100,9 +108,11 @@ image:diagram_propose_file_change.png[Propose file change]
 . Provide a comment about the edit that you made, then click *Create pull request*.
 +
 image:diagram_create_pull_requst.png[Create pull request]
-+
-After you propose the changes, we'll review them and merge the changes into the GitHub repository.
-+
-You can also view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
-+
+
+.After you're done
+
+After you propose the changes, we'll review them, make any necessary changes, and then merge the changes into the GitHub repository.
+
+You can view the status of the pull request by clicking *Pull requests* on the top banner next to the GitHub search box:
+
 image:diagram_pull_request_tab.png[Pull request tab]
