@@ -83,9 +83,9 @@ If you need help with our writing style or source syntax, you can use these reso
 
 . Using your web browser, open the page on https://docs.netapp.com[docs.netapp.com] that you want to edit.
 
-. Under Contribute, click *Edit on GitHub*.
+. On the right side of the page, click *Edit this page*.
 +
-image:screenshot-edit-this-page.png[Edit on GitHub]
+image:screenshot-edit-this-page.png[Edit this page]
 
 . Click the pencil icon.
 +
