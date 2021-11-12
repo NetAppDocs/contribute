@@ -141,9 +141,9 @@ Two notes:
 
 . It's best to enclose alt text in quotes because punctuation like commas can affect the ability to transform the content from AsciiDoc to HTML.
 
-. The https://docs.asciidoctor.org/asciidoc/latest/macros/images/[AsciiDoctor docs^] state that _block images_ should be on their own line with _two_ colons--for example: `image::file.png`
+. The https://docs.asciidoctor.org/asciidoc/latest/macros/images/[AsciiDoctor docs^] state that _block images_ should be on their own line with _two_ colons: `image::file.png`
 +
-But we prefer to use one colon, as shown in the example above. Using one colon has the same result and it works better with our internal tools.
+But we prefer to use one colon, as shown above. Using one colon has the same result and it works better with our internal tools.
 
 === Videos
 
