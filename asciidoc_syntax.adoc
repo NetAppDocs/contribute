@@ -132,12 +132,18 @@ TIP: The + is a list continuation. It keeps the text inline with the list item. 
 === Images
 
 ....
-image::file.gif["alt text"]
+image:file.png["alt text"]
 ....
 
 _alt text_ means alternative text. It describes the image that appears on the page. The primary use is for visually-impaired users who use screen readers.
 
-TIP: It's best to enclose alt text in quotes because punctuation like commas can affect the ability to transform the content from AsciiDoc to HTML.
+Two notes:
+
+. It's best to enclose alt text in quotes because punctuation like commas can affect the ability to transform the content from AsciiDoc to HTML.
+
+. The https://docs.asciidoctor.org/asciidoc/latest/macros/images/[AsciiDoctor docs^] state that _block images_ should be on their own line with _two_ colons: `image::file.png`
++
+But we prefer to use one colon, as shown above. Using one colon has the same result and it works better with our internal tools.
 
 === Videos
 
@@ -494,7 +500,7 @@ You can add a link to an image so it acts like a "button."
 
 In the following screenshot, "View in Documentation Center" is an image that contains a link.
 
-image::image_with_link.gif[An image of a button that says "View in Documentation Center"]
+image:image_with_link.gif[An image of a button that says "View in Documentation Center"]
 
 *Syntax*
 
