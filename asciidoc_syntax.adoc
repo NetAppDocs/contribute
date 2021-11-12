@@ -12,7 +12,7 @@ permalink: asciidoc_syntax.html
 :imagesdir: ./media/
 
 [.lead]
-AsciiDoc is a lightweight markup language, similar to Markdown. We chose AsciiDoc over standard Markdown because it provides more out-of-box capabilities. While it's more powerful, it's still simple to use. Refer to this page to get started writing in AsciiDoc.
+AsciiDoc is a lightweight markup language, similar to Markdown. We chose AsciiDoc over standard Markdown because it provides more out-of-box capabilities. While it's more powerful, it's still simple to use. Refer to the sections below to get started writing in AsciiDoc.
 
 See the http://asciidoctor.org/docs/user-manual/[AsciiDoctor User Manual^] for additional help.
 
