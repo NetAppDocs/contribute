@@ -26,6 +26,10 @@ You can contribute to our docs by using the following options:
 +
 <<Submit edits to the docs,View step-by-step instructions for this option>>.
 
+The following video shows how you can use these contribution options.
+
+video::0A-xQJaDkco[youtube, width=848, height=480]
+
 == Request doc changes
 
 Submitting a request for a doc change is the most common way to contribute to NetApp docs. After you submit the request, the content lead will confirm that they've received your feedback. You'll get an email notification from GitHub when they do.
