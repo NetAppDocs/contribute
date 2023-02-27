@@ -1,0 +1,13 @@
+At NetApp, we value the creativity and expertise of our employees, contractors, and partners in creating, publishing, and maintaining accurate, relevant, useful technical documentation for our customers. We believe that the use of AI-generated content can compromise these values and undermine the integrity and accuracy of our documentation. Therefore, NetApp’s policy is to prohibit the use of AI-generated content in all technical documentation published on docs.netapp.com. Note that this policy is similar to and extends NetApp’s policy that forbids the use of languages models to write code for the products it sells.
+
+We expect all NetAppDocs contributors to adhere to the following policy:
+
+. *Prohibition on the use of AI-generated content:* We do not allow the use of AI-generated content in any technical documentation we create for our customers. This includes written materials, graphics, multimedia, or other materials that are published on netapp.com. All content published on docs.netapp.com must be created by our employees, contractors, or partners using their own creativity, expertise, and experience.
+. *Education and training:* We provide regular training and education to our employees, contractors, and partners on the use of AI-generated content and the reasons why we do not allow it in our technical documentation. We encourage all individuals associated with our company to stay informed about the latest developments in AI-generated content and their implications for NetApp technical documentation.
+. *Compliance and reporting:* All employees, contractors, and partners are responsible for compliance with this policy. Any violations or suspected violations of this policy must be reported immediately to NetApp Legal for investigation.
+
+NetAppDocs contributors should keep the following in mind:
+
+* Do not use AI to generate or edit technical documentation for previously unreleased products, versions of products, or features within products.
+* Copyright for new technical documentation must remain within NetApp and not be shared with AIs outside NetApp prior to official product release dates and the corresponding publication of related technical documentation.
+* Do not send confidential documentation, new content, or any content written after 2021, including URLs, into AI (ChatGPT or any other tool). Any information fed into ChatGPT becomes a part of its training dataset, which in turn becomes property of OpenAI and can be used by them and their users.  While much of this data is publicly accessible, we do not want to train the model on our own IP.
