@@ -2,9 +2,9 @@ At NetApp, we value the expertise of our employees, contractors, and partners in
 
 We expect all NetAppDocs contributors to adhere to the following policy:
 
-. *Prohibition on the use of AI-generated content:* We do not allow publication of customer-facing documentation (how to use NetApp products) generated from AI without human review and validation. This includes written materials, graphics, multimedia, or other materials that are published on docs.netapp.com. All content published on docs.netapp.com must be verified and validated by human content creators.
-. *Education and training:* Part of the role of content creator for docs.netapp.com involves adhering to the style and contributor guides. This includes staying informed about the latest developments in AI-generated content and their implications for NetApp technical documentation.
-. *Compliance and reporting:* All employees, contractors, and partners are expected to comply with the policy. Repeated violations may result in suspended authoring privileges.
+* We do not allow publication of customer-facing documentation (how to use NetApp products) generated from AI without human review and validation. This includes written materials, graphics, multimedia, or other materials that are published on docs.netapp.com. All content published on docs.netapp.com must be verified and validated by human content creators.
+* Part of the role of content creator for docs.netapp.com involves adhering to the style and contributor guides. This includes staying informed about the latest developments in AI-generated content and their implications for NetApp technical documentation.
+* All employees, contractors, and partners are expected to comply with the policy. Repeated violations may result in suspended authoring privileges.
 
 NetAppDocs contributors should keep the following in mind:
 
