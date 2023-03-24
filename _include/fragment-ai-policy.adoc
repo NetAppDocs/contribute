@@ -8,6 +8,7 @@ We expect all NetAppDocs contributors to adhere to the following policy:
 
 NetAppDocs contributors should keep the following in mind:
 
+* All AI-based content-generating technologies embedded in software you have installed on your work computer, including ones like Microsoft 365 Co-pilot, send your data to the company that hosts the assistive technology. Do not prompt such a technology with company confidential content, including but not limited to specifications for unreleased product features.
 * Do not use public AI technologies to generate or edit technical documentation for **previously unreleased** products, versions of products, or features within products.
 * Copyright for new technical documentation must remain within NetApp and not be shared with AIs outside NetApp prior to official product release dates and the corresponding publication of related technical documentation.
 * Do not send confidential documentation, new content, or any content written after 2021, including URLs, into AI (ChatGPT or any other tool). Any information fed into ChatGPT becomes a part of its training dataset, which in turn becomes property of OpenAI and can be used by them and their users.  While much of this data is publicly accessible, we do not want to train the model on our own IP.
