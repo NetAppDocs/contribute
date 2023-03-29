@@ -12,3 +12,4 @@ permalink: ai-policy.html
 
 [.lead]
 include::_include/fragment-ai-policy.adoc[]
+
