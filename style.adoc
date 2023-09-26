@@ -16,7 +16,7 @@ Our style is conversational and empathetic, but we stay professional and get to 
 
 == Write conversationally
 
-Write like you speak when you’re explaining something to a professional colleague. Writing in a conversational tone helps you connect with your audience.
+Write like you speak when you're explaining something to a professional colleague. Writing in a conversational tone helps you connect with your audience.
 
 TIP: Read your writing out loud. As Elmore Leonard, an American novelist and screenwriter, said, “If it sounds like writing, I rewrite it.”
 
@@ -24,19 +24,19 @@ TIP: Read your writing out loud. As Elmore Leonard, an American novelist and scr
 |Too formal |Too casual |Our style
 
 |If you experience issues with Cloud Tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.
-|It’s no fun when failures happen. Don’t worry though, just check out the Cluster Dashboard to see what happened and what’s affected.
-|When there’s a failure, Cloud Tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
+|It's no fun when failures happen. Don't worry though, just check out the Cluster Dashboard to see what happened and what's affected.
+|When there's a failure, Cloud Tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
 
 |You can pay for Cloud tiering in multiple ways. You can pay for Cloud Tiering through a pay-as-you-go subscription, you can pay through an ONTAP tiering license, or you can pay through a combination of both. You cannot get licensing from within Cloud Manager, you must go directly to the Cloud Tiering service to set it up.
-|We have like three ways you can pay for Cloud tiering. A pay-as-you-go subscription of course, but also an ONTAP tiering license, or even a combination of both. But you can’t get licensing from Cloud Manager, so just go directly to the Cloud Tiering service to set it up.
-|Pay for Cloud Tiering through a pay-as-you-go subscription, an ONTAP tiering license, or a combination of both. Licensing isn’t available from within Cloud Manager, but you can go directly to the Cloud Tiering service to set it up.
+|We have like three ways you can pay for Cloud tiering. A pay-as-you-go subscription of course, but also an ONTAP tiering license, or even a combination of both. But you can't get licensing from Cloud Manager, so just go directly to the Cloud Tiering service to set it up.
+|Pay for Cloud Tiering through a pay-as-you-go subscription, an ONTAP tiering license, or a combination of both. Licensing isn't available from within Cloud Manager, but you can go directly to the Cloud Tiering service to set it up.
 
 |Before you can provision storage, you must discover your ONTAP cluster from Cloud Manager. After discovery is complete, you must open the working environment to provision storage.
 |All you do is first discover your ONTAP cluster from Cloud Manager, then open the working environment to start provisioning storage. Easy!
 |After you discover your ONTAP cluster from Cloud Manager, open the working environment to provision storage.
 
 |Analyze the wellness attributes of your storage system in one of two ways, depending on what you want to analyze: Either select the wellness attribute widget on the dashboard or select View All to view the entire list of wellness attributes.
-|You’ve got two ways to analyze your system’s wellness attributes: Just select the wellness attribute widget on the dashboard. Or, if you’d rather see the whole list of wellness attributes in one view, select View All.
+|You've got two ways to analyze your system's wellness attributes: Just select the wellness attribute widget on the dashboard. Or, if you'd rather see the whole list of wellness attributes in one view, select View All.
 |Select the wellness attribute widget on the dashboard or select View All to view the list of all actions and risks.
 
 |When the Setup wizard starts, follow the instructions in the wizard to set up the node and join it to the cluster. The following steps walk you through the steps in the wizard.
@@ -50,7 +50,7 @@ TIP: Read your writing out loud. As Elmore Leonard, an American novelist and scr
 
 == Write simply
 
-Avoid big and confusing words. Keep it simple. You’re explaining something to a professional colleague, not showing off your vocabulary.
+Avoid big and confusing words. Keep it simple. You're explaining something to a professional colleague, not showing off your vocabulary.
 
 **Rather than this**: “Dissociate the user from your NetApp Cloud Central account.”
 
@@ -58,7 +58,7 @@ Avoid big and confusing words. Keep it simple. You’re explaining something to 
 
 == Write minimally
 
-Short, simple sentences make content easier to read or scan. It’s okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
+Short, simple sentences make content easier to read or scan. It's okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
 
 **Rather than this**: “To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the Amazon VPC and the other network—for example, an Azure VNet or your corporate network.”
 
@@ -68,7 +68,7 @@ See also <<minimalism>>.
 
 == Write actively
 
-Avoiding passive voice is a standard rule for tech writing, but it’s especially important to use active voice when you want to sound conversational.
+Avoiding passive voice is a standard rule for tech writing, but it's especially important to use active voice when you want to sound conversational.
 
 **Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
 
@@ -86,7 +86,7 @@ We know that we have work to do in order to remove all non-inclusive language fr
 
 == Get to the point
 
-Start with what’s important to the user. Find out what the user is trying to do and focus on helping them achieve that goal.
+Start with what's important to the user. Find out what the user is trying to do and focus on helping them achieve that goal.
 
 **Rather than this**: “Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.”
 
@@ -114,14 +114,14 @@ Use headings, lists, and tables to help users scan for what they want.
 
 == Focus on a user goal or a specific aspect of that goal
 
-If you’re describing how to complete a series of tasks, put it all on one page in a series of sections, including conceptual and reference-based information. Don’t break up your page into several mini-pages—that requires too much clicking. At the same time, don’t create long, intimidating pages. Use your best judgment to decide when a page is too long.
+If you're describing how to complete a series of tasks, put it all on one page in a series of sections, including conceptual and reference-based information. Don't break up your page into several mini-pages—that requires too much clicking. At the same time, don't create long, intimidating pages. Use your best judgment to decide when a page is too long.
 
 .Examples
 
 * https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
 * https://docs.netapp.com/us-en/occm/concept_ha.html[Example #2^]
 
-== Organize content around the user’s goal
+== Organize content around the user's goal
 
 Help users find the info they need when they need it. Get them in and out of the docs as quickly as possible, by organizing the content as follows:
 
@@ -146,9 +146,9 @@ We write for our customers and partners around the world, and much of our conten
 * Avoid jargon, colloquialisms, and metaphors.
 * Avoid nontechnical examples.
 * Avoid using hard returns and spacing.
-* Don’t use humor or irony.
-* Don’t use discriminatory content.
-* Don’t use gender-biased language unless you’re writing for a specific persona.
+* Don't use humor or irony.
+* Don't use discriminatory content.
+* Don't use gender-biased language unless you're writing for a specific persona.
 
 == A to Z guidelines
 
@@ -168,9 +168,9 @@ In passive voice, the doer of the action is unclear:
 
 Use passive voice when:
 
-* You don’t know who or what performed the action.
+* You don't know who or what performed the action.
 * You want to avoid blaming users for the results of an action.
-* You can’t write around it, such as for some prerequisite information.
+* You can't write around it, such as for some prerequisite information.
 
 For additional verb conventions, see:
 
@@ -184,7 +184,7 @@ Use the following labels to identify content separately from the main content fl
 
 * NOTE
 +
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn’t required for users to learn about the task or complete the task.
+Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
 
 * TIP
 +
@@ -202,7 +202,7 @@ Use CAUTION to warn users about conditions or procedures that can cause personal
 === also
 
 * Use "also" to mean "additionally."
-* Don’t use "also" to mean “alternatively.”
+* Don't use "also" to mean “alternatively.”
 
 === and/or
 
@@ -210,7 +210,7 @@ Choose the more precise term if there is one. If neither term is more precise th
 
 === as
 
-Don’t use “as” to mean “because.”
+Don't use “as” to mean “because.”
 
 === by using (versus “using” or “with”)
 
@@ -221,9 +221,9 @@ Don’t use “as” to mean “because.”
 
 * Use “can” to indicate capability: “You can commit your changes at any time during this procedure.”
 * Use “might” to indicate possibility: “Downloading multiple programs might affect processing time.”
-* Don’t use “may,” which is ambiguous because it could mean either capability or permission.
+* Don't use “may,” which is ambiguous because it could mean either capability or permission.
 * Use “should” to indicate a recommended but optional action. Consider using an alternative phrase instead, such as “we recommend.”
-* Avoid using “must” because it’s passive. Consider restating the thought as an instruction using imperative voice. If you do use “must,” use it to indicate a required action or condition.
+* Avoid using “must” because it's passive. Consider restating the thought as an instruction using imperative voice. If you do use “must,” use it to indicate a required action or condition.
 
 === capitalization
 
@@ -243,10 +243,10 @@ See <<admonitions>> for other labels that identify content separately from the m
 
 === consistency
 
-“Write like you speak when you’re explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
+“Write like you speak when you're explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
 
-* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don’t matter.
-* Be consistent within the page you’re writing.
+* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
+* Be consistent within the page you're writing.
 * Always follow the guidelines in <<Write for a global audience>>.
 
 === contractions
@@ -257,7 +257,7 @@ Contractions reinforce a conversational tone, and many contractions are easy to 
 +
 |===
 
-| aren’t | you’re
+| aren't | you're
 
 | isn't | we're
 
@@ -265,7 +265,7 @@ Contractions reinforce a conversational tone, and many contractions are easy to 
 
 | weren't | let's
 
-| didn't | we’ll (if future tense is required)
+| didn't | we'll (if future tense is required)
 
 | doesn't | won't (if future tense is required)
 
@@ -279,11 +279,11 @@ Contractions reinforce a conversational tone, and many contractions are easy to 
 +
 |===
 
-| would’ve | should’ve
+| would've | should've
 
-| wouldn’t’ve | shouldn’t’ve
+| wouldn't've | shouldn't've
 
-| could’ve | couldn’t’ve
+| could've | couldn't've
 
 |===
 
@@ -310,7 +310,7 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 
 === if not
 
-Don’t use “if not” by itself to refer to the previous sentence:
+Don't use “if not” by itself to refer to the previous sentence:
 
 **Rather than this**: “The computer should be off. If not, turn it off.”
 
@@ -336,11 +336,11 @@ Don’t use “if not” by itself to refer to the previous sentence:
 
 === IP and IPv6 addresses
 
-For IP addresses (including IPv6) in examples, it’s safe to include any address that starts with “10.x”.
+For IP addresses (including IPv6) in examples, it's safe to include any address that starts with “10.x”.
 
 === future functionality or releases
 
-Don’t refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is “not currently supported.”
+Don't refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is “not currently supported.”
 
 === KB articles: referring to
 
@@ -355,7 +355,7 @@ Lists of info are usually easier to scan and absorb than blocks of text. Conside
 * List entries should be as scannable as possible. Avoid blocks of text that get in the way of keeping list entries scannable.
 * List entries should start with a capital letter, and list entries should be grammatically parallel. For example, start each entry with a noun or a verb:
 ** If all list entries are complete sentences, end them with periods.
-** If all list entries are sentence fragments, don’t end them with periods.
+** If all list entries are sentence fragments, don't end them with periods.
 * List entries should be ordered in a logical way, such as alphabetically or chronologically.
 
 === localization
@@ -372,7 +372,7 @@ See <<Write for a global audience>>.
 
 === NOTE information
 
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn’t required for users to learn about the task or complete the task.
+Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
 
 See <<admonitions>> for other labels that identify content separately from the main content flow.
 
@@ -407,7 +407,7 @@ Prerequisites identify the conditions that must exist or the actions that users 
 === prior (versus “before,” “previous,” or “preceding”)
 
 * If possible, replace “prior” with “before.”
-* If you can’t use “before,” use “prior” as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
+* If you can't use “before,” use “prior” as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
 * Use “previous” to indicate something that occurred at an unspecified time earlier.
 * Use “preceding” to indicate something that occurred immediately beforehand.
 
@@ -424,7 +424,7 @@ Keep it simple. In general, the more punctuation included in a sentence, the mor
 
 === since
 
-Use “since” to indicate a passage of time. Don’t use "since" to mean "because."
+Use “since” to indicate a passage of time. Don't use "since" to mean "because."
 
 === spelling
 
@@ -449,12 +449,12 @@ See <<admonitions>> for other labels that identify content separately from the m
 
 === trademarks
 
-We don’t include trademark symbols in most of our technical content because the legal statements in our templates are sufficient. However, we do follow all usage rules when using https://www.netapp.com/us/legal/netapptmlist.aspx[NetApp trademarked terms^]:
+We don't include trademark symbols in most of our technical content because the legal statements in our templates are sufficient. However, we do follow all usage rules when using https://www.netapp.com/us/legal/netapptmlist.aspx[NetApp trademarked terms^]:
 
 * Use trademarked terms (with or without the symbol) only as adjectives, never as nouns, verbs, or verbals.
-* Don’t abbreviate, hyphenate, or italicize trademarked terms.
-* Don’t pluralize trademarked terms. If a plural form is required, use the trademarked name as an adjective that modifies a plural noun.
-* Don’t use a possessive form of a trademarked term. You can use the possessive form of company names, such as NetApp, when the names are being used in a general sense, rather than as trademarked terms.
+* Don't abbreviate, hyphenate, or italicize trademarked terms.
+* Don't pluralize trademarked terms. If a plural form is required, use the trademarked name as an adjective that modifies a plural noun.
+* Don't use a possessive form of a trademarked term. You can use the possessive form of company names, such as NetApp, when the names are being used in a general sense, rather than as trademarked terms.
 
 === user interface
 
@@ -466,10 +466,10 @@ Our style for documenting UIs is simple and minimal:
 
 * Assume that the user is using the interface while reading the content.
 * Rely on the interface to guide the user:
-** Don’t walk the user through a wizard or screen step by step. Only call out important things that are not apparent from the interface.
-** Don’t include “click OK” or “click Save” or “the volume is created” or anything else that’s obvious to someone doing the task.
+** Don't walk the user through a wizard or screen step by step. Only call out important things that are not apparent from the interface.
+** Don't include “click OK” or “click Save” or “the volume is created” or anything else that's obvious to someone doing the task.
 ** Assume success. Unless you expect an operation to fail most of the time, do not document the failure path. Assume that the interface provides proper guidance.
-* Don’t use “click” at all. Always use “select” because that word covers mouse, touch, keyboard, and any other way of making a choice.
+* Don't use “click” at all. Always use “select” because that word covers mouse, touch, keyboard, and any other way of making a choice.
 * Focus content on a workflow that addresses a customer use case and on getting the user to the right place in the interface to start the workflow.
 * Always document the one best way to achieve the user goal.
 * If the workflow requires a significant decision, make sure to document a decision rule.
@@ -477,9 +477,9 @@ Our style for documenting UIs is simple and minimal:
 
 ==== Naming UI elements
 
-Avoid documenting to the level of granularity that requires naming UI elements. Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, “Select the desired volume” or “Select ‘Use existing volume.’” There is no need to name menus or radio buttons or checkboxes, just use the label.
+Avoid documenting to the level of granularity that requires naming UI elements. Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, “Select the desired volume” or “Select ‘Use existing volume.'” There is no need to name menus or radio buttons or checkboxes, just use the label.
 
-For icons that users must select, use an image of the icon. Don’t try to name it. This rule applies to icons like the arrow, pencil, gear, kabob, hamburger, and so on.
+For icons that users must select, use an image of the icon. Don't try to name it. This rule applies to icons like the arrow, pencil, gear, kabob, hamburger, and so on.
 
 ==== Representing displayed labels
 
@@ -487,7 +487,7 @@ Follow the spelling and capitalization used by the user interface when identifyi
 
 ==== Using screen captures
 
-An occasional screen capture (“screenshot”) helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don’t use screen captures to show what data to enter or what value to select.
+An occasional screen capture (“screenshot”) helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
 
 === while (versus “although”)
 
