@@ -18,11 +18,11 @@ The documentation for NetApp's products and services is open source. This enable
 
 You can contribute to our docs by using the following options:
 
-* Click *Request doc changes* to submit general feedback or to ask a question about the content. The NetApp content lead then reviews your request to determine what changes are needed to the docs. This is the most common option.
+* Select *Request doc changes* to submit general feedback or to ask a question about the content. The NetApp content lead then reviews your request to determine what changes are needed to the docs. This is the most common option.
 +
 <<Request doc changes,View step-by-step instructions for this option>>.
 
-* Click *Edit this page* to directly edit the content yourself. The NetApp content lead then reviews your edits and merges them.
+* Select *Edit this page* to directly edit the content yourself. The NetApp content lead then reviews your edits and merges them.
 +
 <<Submit edits to the docs,View step-by-step instructions for this option>>.
 
@@ -46,25 +46,25 @@ TIP: All comments that you provide are publicly visible. Anyone who navigates to
 
 . Using your web browser, open the page on https://docs.netapp.com[docs.netapp.com] that's related to your feedback.
 
-. On the right side of the page, click *Request doc changes*.
+. At the top of the page, select *Suggest changes > Request doc changes*.
 +
 image:screenshot-request-doc-changes.png[Request doc changes]
 +
 A new browser tab opens with a form that you can use to provide details to our doc team.
 
-. Enter a title and then provide details about your request.
+. Enter a title, summary, and acknowledge that the issue doesn't contain any sensitive information.
 +
-The comment field is prepopulated with the title and URL for the page. Don't delete this information because we'll need it to understand your request.
+The form is prepopulated with the URL and title of the page. Don't delete this information because we'll need it to understand your request.
 +
 image:screenshot-submit-new-issue.png[Submit new issue]
 
-. Click *Submit new issue* to create an issue for your request.
+. Select *Submit new issue* to create an issue for your request.
 
 .After you're done
 
 Opening an issue enables collaboration through GitHub comments. You'll receive email notifications based on the preferences that you indicated in your GitHub account settings.
 
-You can also view the status of the request by clicking *Issues* on the top banner next to the GitHub search box:
+You can also view the status of the request by selecting *Issues* on the top banner next to the GitHub search box:
 
 image:screenshot-issues.png[Issues tab]
 
@@ -87,11 +87,11 @@ If you need help with our writing style or source syntax, you can use these reso
 
 . Using your web browser, open the page on https://docs.netapp.com[docs.netapp.com] that you want to edit.
 
-. On the right side of the page, click *Edit this page*.
+. At the top of the page, select *Suggest changes > Edit this page*.
 +
 image:screenshot-edit-this-page.png[Edit this page]
 
-. Click the pencil icon.
+. Select the pencil icon.
 +
 image:screenshot-pencil-icon.png[Pencil icon]
 
@@ -99,17 +99,15 @@ image:screenshot-pencil-icon.png[Pencil icon]
 +
 The content is written in AsciiDoc, a lightweight markup language. If you need help, link:asciidoc_syntax.html[click here to learn about AsciiDoc syntax].
 
-. To commit your changes, scroll down the page and fill out the form:
+. To commit your changes, select *Commit changes*  and fill out the form:
 
-.. Enter a title and optional description.
-.. Select *Create a new branch for this commit and start a pull request*.
-.. Click *Propose changes*.
-+
-GitHub automatically fills in a branch name (for example, _username-patch-n_) for the change.
+.. Optionally modify the default commit message.
+.. Add an optional description.
+.. Select *Propose changes*.
 +
 image:screenshot-propose-change.png[Propose file change]
 
-. Provide a comment about the edit that you made, then click *Create pull request*.
+. Select *Create pull request*.
 +
 image:screenshot-create-pull-request.png[Create pull request]
 
