@@ -30,6 +30,8 @@ The following video provides a brief overview of these two options:
 
 video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto, title="Overview of contributing to docs.netapp.com"]
 
+The sections below provide step-by-step instructions.
+
 == Request doc changes
 
 Submitting a request for a doc change is the most common way to contribute to NetApp docs. After you submit the request, the content lead will confirm that they've received your feedback. You'll get an email notification from GitHub when they do.
