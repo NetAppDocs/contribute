@@ -36,7 +36,7 @@ TIP: All comments that you provide are publicly visible. Anyone who navigates to
 
 .Steps
 
-. If you don't already have a GitHub account, https://github.com/join[create one from github.com^].
+. If you don't already have a GitHub account, https://github.com/join[create one from github.com^]
 
 . Log in to your GitHub account.
 
@@ -91,7 +91,7 @@ image:screenshot-edit-this-page.png[Edit this page]
 +
 image:screenshot-pencil-icon.png[Pencil icon]
 
-. If you're prompted to create a fork the repository, select *Fork this repository*.
+. If you're prompted to create a fork of the repository, select *Fork this repository*.
 
 . Edit the content.
 +
