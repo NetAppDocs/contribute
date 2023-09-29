@@ -26,7 +26,7 @@ You can contribute to our docs by using the following options:
 +
 <<Submit edits to the docs,View step-by-step instructions for this option>>.
 
-The following video provides a brief overview of these two options:
+The following video provides a brief overview of these two options.
 
 video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto, title="Overview of contributing to docs.netapp.com"]
 
@@ -52,7 +52,7 @@ TIP: All comments that you provide are publicly visible. Anyone who navigates to
 +
 image:screenshot-request-doc-changes.png[Request doc changes]
 +
-A new browser tab opens with a form that you can use to provide details to our doc team.
+A new browser tab opens with a GitHub form that you can use to provide details to our doc team.
 
 . Enter a title, summary, and acknowledge that the issue doesn't contain any sensitive information.
 +
@@ -92,6 +92,8 @@ If you need help with our writing style or source syntax, you can use these reso
 . At the top of the page, select *Suggest changes > Edit this page*.
 +
 image:screenshot-edit-this-page.png[Edit this page]
++
+A new browser tab opens and brings you to the file in the GitHub repository for the documentation site.
 
 . Select the pencil icon.
 +
