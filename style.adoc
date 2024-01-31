@@ -255,30 +255,33 @@ Contractions reinforce a conversational tone, and many contractions are easy to 
 
 .Do use contractions like these, which are easy to understand and translate:
 
-* aren't 
-* you're
-* isn't
-* we're
-* wasn't
-* it's
-* weren't
-* let's
-* didn't
-* we'll (if future tense is required)
-* doesn't
-* won't (if future tense is required)
-* don't
-* you'll (if future tense is required)
+* aren't
 * can't
+* didn't
+* doesn't
+* don't
+* isn't
+* it's
+* let's
+* wasn't
+* we're
+* weren't
+* you're
+
+.Don't use these contractions when future tense is required:
+
+* we'll
+* won't
+* you'll
 
 .Don't use contractions like these, which are hard to understand and translate:
 
-* would've
-* should've
-* wouldn't've
-* shouldn't've
 * could've
 * couldn't've
+* should've
+* shouldn't've
+* would've
+* wouldn't've
 
 === ensure (versus “confirm” or “verify”)
 
