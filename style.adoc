@@ -253,39 +253,32 @@ See <<admonitions>> for other labels that identify content separately from the m
 
 Contractions reinforce a conversational tone, and many contractions are easy to understand and translate.
 
-* Do use contractions like these, which are easy to understand and translate:
-+
-|===
+.Do use contractions like these, which are easy to understand and translate:
 
-| aren't | you're
+* aren't 
+* you're
+* isn't
+* we're
+* wasn't
+* it's
+* weren't
+* let's
+* didn't
+* we'll (if future tense is required)
+* doesn't
+* won't (if future tense is required)
+* don't
+* you'll (if future tense is required)
+* can't
 
-| isn't | we're
+.Don't use contractions like these, which are hard to understand and translate:
 
-| wasn't | it's
-
-| weren't | let's
-
-| didn't | we'll (if future tense is required)
-
-| doesn't | won't (if future tense is required)
-
-| don't | you'll (if future tense is required)
-
-| can't
-
-|===
-
-* Don't use contractions like these, which are hard to understand and translate:
-+
-|===
-
-| would've | should've
-
-| wouldn't've | shouldn't've
-
-| could've | couldn't've
-
-|===
+* would've
+* should've
+* wouldn't've
+* shouldn't've
+* could've
+* couldn't've
 
 === ensure (versus “confirm” or “verify”)
 
