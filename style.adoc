@@ -4,7 +4,6 @@ permalink: style.html
 ---
 
 = Style guide for NetApp docs
-:toc: macro
 :hardbreaks:
 :nofooter:
 :icons: font

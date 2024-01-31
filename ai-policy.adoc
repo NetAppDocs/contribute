@@ -3,7 +3,6 @@ sidebar: sidebar
 permalink: ai-policy.html
 ---
 = Policy forbidding the use of AI-generated content in NetApp technical documentation
-:toc: macro
 :hardbreaks:
 :nofooter:
 :icons: font
