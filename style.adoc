@@ -74,7 +74,29 @@ Avoiding passive voice is a standard rule for tech writing, but it's especially 
 
 **Do this**: “Provide the required permissions before you deploy your first cluster.”
 
-See also <<active voice (versus “passive voice”)>>.
+In active voice, the subject of the sentence is the doer of the action:
+
+* If you shut down the system improperly, the interface displays a warning message.
+* NetApp received the contract.
+
+Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
+
+In passive voice, the doer of the action is unclear:
+
+* A warning message is displayed if the system is shut down improperly.
+* NetApp was awarded the contract.
+
+Use passive voice when:
+
+* You don't know who or what performed the action.
+* You want to avoid blaming users for the results of an action.
+* You can't write around it, such as for some prerequisite information.
+
+For additional verb conventions, see:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
+* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
+* https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 == Use inclusive language
 
@@ -152,32 +174,6 @@ We write for our customers and partners around the world, and much of our conten
 
 == A to Z guidelines
 
-=== active voice (versus “passive voice”)
-
-In active voice, the subject of the sentence is the doer of the action:
-
-* If you shut down the system improperly, the interface displays a warning message.
-* NetApp received the contract.
-
-Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
-
-In passive voice, the doer of the action is unclear:
-
-* A warning message is displayed if the system is shut down improperly.
-* NetApp was awarded the contract.
-
-Use passive voice when:
-
-* You don't know who or what performed the action.
-* You want to avoid blaming users for the results of an action.
-* You can't write around it, such as for some prerequisite information.
-
-For additional verb conventions, see:
-
-* https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
-* https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
-
 === admonitions
 
 Use the following labels to identify content separately from the main content flow:
@@ -234,12 +230,6 @@ Use sentence-style capitalization (lowercase) for almost everything. Only capita
 * Proper nouns
 * Doc titles and subtitles (capitalize all major words and prepositions of five or more letters)
 * UI elements, but only if they are capitalized in the interface. Otherwise, use lowercase.
-
-=== CAUTION notices
-
-Use CAUTION to warn users about conditions or procedures that can cause personal injury that is not lethal or extremely hazardous.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
 
 === consistency
 
@@ -370,12 +360,6 @@ See <<Write for a global audience>>.
 * Can I use a list to make the content more scannable?
 * Can I use a graphic to augment or replace a block of text?
 
-=== NOTE information
-
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
-
 === numbers
 
 * Use Arabic numerals for 10 and all numbers greater than 10, with these exceptions:
@@ -440,12 +424,6 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 * Use “that” even if the sentence is clear in English without it: "Verify that the computer is off."
 * Use “which” (with a trailing comma) to introduce clauses that add supporting information but are not required for the sentence to make sense.
 * Use “who” to introduce clauses referring to people.
-
-=== TIP information
-
-Use TIP sparingly, if at all, because our policy is to always document best-practice information by default. If necessary, use TIP to contain best-practice information that helps users use a product or complete a step or task easily and efficiently.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
 
 === trademarks
 
