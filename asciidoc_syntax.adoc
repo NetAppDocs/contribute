@@ -4,7 +4,6 @@ permalink: asciidoc_syntax.html
 ---
 
 = AsciiDoc reference
-:toc: macro
 :hardbreaks:
 :nofooter:
 :icons: font
