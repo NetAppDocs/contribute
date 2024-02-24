@@ -48,6 +48,51 @@ TIP: Read your writing out loud. As Elmore Leonard, an American novelist and scr
 |Choose a content format type to guide you through installing and setting up your system.
 |===
 
+[id=contractions]
+=== Use contractions
+
+Contractions reinforce a <<write conversationally,conversational tone>>, and many contractions are easy to understand and translate.
+
+.Expand to learn more
+[%collapsible]
+====
+* Use contractions like these, which are easy to understand and translate:
++
+|===
+
+| aren't | you're
+
+| isn't | we're
+
+| wasn't | it's
+
+| weren't | let's
+
+| didn't | we'll (if future tense is required)
+
+| doesn't | won't (if future tense is required)
+
+| don't | you'll (if future tense is required)
+
+| can't
+
+|===
+
+* Don't use contractions like these, which are hard to understand and translate:
++
+|===
+
+| would've | should've
+
+| wouldn't've | shouldn't've
+
+| could've | couldn't've
+
+|===
+
+====
+// End snippet
+
 == Write simply
 
 Avoid big and confusing words. Keep it simple. You're explaining something to a professional colleague, not showing off your vocabulary.
@@ -64,7 +109,7 @@ Short, simple sentences make content easier to read or scan. It's okay to use a 
 
 **Do this**: “Data replication between networks requires connection through a VPN. For example, between your Amazon VPC and your corporate network or between AWS and Azure.”
 
-See also <<minimalism>>.
+See also <<write minimally,minimalism>>.
 
 == Write actively
 
@@ -98,6 +143,14 @@ For additional verb conventions, see:
 * https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
+== Write consistent content
+
+“Write like you speak when you're explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
+
+* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
+* Be consistent within the page you're writing.
+* Always follow the guidelines in <<Write for a global audience>>.
+
 == Use inclusive language
 
 NetApp believes that its product documentation should not contain discriminatory, exclusive language. The words that we use can make a difference between forging a positive relationship with our customers or alienating them. Especially with written words, impact is more important than intent.
@@ -123,7 +176,10 @@ Most people are visual learners. Use videos, diagrams, and screenshots to improv
 * https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1^]
 * https://docs.netapp.com/us-en/occm/task_getting_started_azure.html[Example #2^]
 
-See also <<graphics>>.
+Continually evaluate content for opportunities to include helpful illustrations, diagrams, flow charts, screen captures, or other visual references. Graphics often convey complex concepts and steps more clearly than text.
+
+* Include a description of what the illustration is intended to communicate: “The following illustration shows the AC power supply LEDs on the back panel.
+* Refer to the location of the illustration as “following” or “preceding,” not “above” or “below.”
 
 == Create scannable content
 
@@ -174,6 +230,11 @@ We write for our customers and partners around the world, and much of our conten
 
 == A to Z guidelines
 
+=== active voice (versus passive voice)
+
+Refer to <<Write actively>>.
+
+[id=admonitions]
 === admonitions
 
 Use the following labels to identify content separately from the main content flow:
@@ -219,7 +280,7 @@ Don't use “as” to mean “because.”
 * Use “might” to indicate possibility: “Downloading multiple programs might affect processing time.”
 * Don't use “may,” which is ambiguous because it could mean either capability or permission.
 * Use “should” to indicate a recommended but optional action. Consider using an alternative phrase instead, such as “we recommend.”
-* Avoid using “must” because it's passive. Consider restating the thought as an instruction using imperative voice. If you do use “must,” use it to indicate a required action or condition.
+* Avoid using “must” because it's <<Write actively,passive>>. Consider restating the thought as an instruction using imperative voice. If you use “must,” use it to indicate a required action or condition.
 
 === capitalization
 
@@ -231,51 +292,13 @@ Use sentence-style capitalization (lowercase) for almost everything. Only capita
 * Doc titles and subtitles (capitalize all major words and prepositions of five or more letters)
 * UI elements, but only if they are capitalized in the interface. Otherwise, use lowercase.
 
-=== consistency
+=== caution notices
 
-“Write like you speak when you're explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
-
-* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
-* Be consistent within the page you're writing.
-* Always follow the guidelines in <<Write for a global audience>>.
+Refer to <<admonitions>>.
 
 === contractions
 
-Contractions reinforce a conversational tone, and many contractions are easy to understand and translate.
-
-* Do use contractions like these, which are easy to understand and translate:
-+
-|===
-
-| aren't | you're
-
-| isn't | we're
-
-| wasn't | it's
-
-| weren't | let's
-
-| didn't | we'll (if future tense is required)
-
-| doesn't | won't (if future tense is required)
-
-| don't | you'll (if future tense is required)
-
-| can't
-
-|===
-
-* Don't use contractions like these, which are hard to understand and translate:
-+
-|===
-
-| would've | should've
-
-| wouldn't've | shouldn't've
-
-| could've | couldn't've
-
-|===
+Use <<contractions,contractions>> as part of writing conversationally.
 
 === ensure (versus “confirm” or “verify”)
 
@@ -285,10 +308,7 @@ Contractions reinforce a conversational tone, and many contractions are easy to 
 
 === graphics
 
-Continually evaluate content for opportunities to include helpful illustrations, diagrams, flow charts, screen captures, or other visual references. Graphics often convey complex concepts and steps more clearly than text.
-
-* Include a description of what the illustration is intended to communicate: “The following illustration shows the AC power supply LEDs on the back panel.
-* Refer to the location of the illustration as “following” or “preceding,” not “above” or “below.”
+Refer to <<Use lots of visuals>>.
 
 === grammar
 
