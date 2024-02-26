@@ -51,7 +51,7 @@ TIP: Read your writing out loud. As Elmore Leonard, an American novelist and scr
 [id=contractions]
 === Use contractions
 
-Contractions reinforce a <<write conversationally,conversational tone>>, and many contractions are easy to understand and translate.
+Contractions reinforce a <<Write conversationally,conversational tone>>, and many contractions are easy to understand and translate.
 
 .Expand to learn more
 [%collapsible]
@@ -126,12 +126,16 @@ Avoiding passive voice is a standard rule for tech writing, but it's especially 
 
 **Do this**: “Provide the required permissions before you deploy your first cluster.”
 
+=== Active voice
+
 In active voice, the subject of the sentence is the doer of the action:
 
 * If you shut down the system improperly, the interface displays a warning message.
 * NetApp received the contract.
 
 Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
+
+=== Passive voice
 
 In passive voice, the doer of the action is unclear:
 
@@ -144,15 +148,21 @@ Use passive voice when:
 * You want to avoid blaming users for the results of an action.
 * You can't write around it, such as for some prerequisite information.
 
-Use imperative voice for steps, directives, requests, and headings for lists of user actions:
-** “On the Working Environments page, click Discover and select ONTAP Cluster.”
-** “Rotate the cam handle so that it is flush against the power supply.”
-* Consider using imperative voice to replace passive voice:
-+
+=== Imperative mood
+
+Use imperative mood for steps, directives, requests, and headings for lists of user actions:
+
+* “On the Working Environments page, click Discover and select ONTAP Cluster.”
+
+* “Rotate the cam handle so that it is flush against the power supply.”
+
+Consider using imperative voice to replace passive voice:
+
 **Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
 +
 **Do this**: “Provide the required permissions before you deploy your first cluster.”
-* Avoid using imperative voice to embed steps in conceptual and reference information.
+
+Avoid using imperative voice to embed steps in conceptual and reference information.
 
 For additional verb conventions, see:
 
@@ -341,9 +351,9 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 
 Don't use “if not” by itself to refer to the previous sentence:
 
-**Rather than this**: “The computer should be off. If not, turn it off.”
+* **Rather than this**: “The computer should be off. If not, turn it off.”
 
-**Do this**: "Verify that the computer is off."
+* **Do this**: "Verify that the computer is off."
 
 === if (versus “whether” or “when”)
 
@@ -495,7 +505,7 @@ If a label is followed by ellipses, do not include the ellipses when naming the 
 ====
 //end snippet
 
-==== Using screen captures
+.Using screen captures
 Use screen captures sparingly.
 [%collapsible]
 ====
@@ -516,4 +526,5 @@ Users read our content to accomplish a specific goal. Users want to find the con
 A workflow is a series of steps or subtasks that describes how to achieve a user goal. The scope of a workflow is a complete goal.
 
 For example, the steps to create a volume would not be a workflow, because creating a volume in itself is not a complete goal. The steps to make storage available to an ESX server could be a workflow. The steps would include not only creating a volume, but exporting the volume, setting any necessary permissions, creating a network interface, and so on.
+
 Workflows are derived from customer use cases. A workflow shows only the one best way to achieve the goal.
