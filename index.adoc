@@ -4,7 +4,6 @@ permalink: index.html
 ---
 
 = Contribute to NetApp technical content in GitHub
-:toc: macro
 :hardbreaks:
 :nofooter:
 :icons: font
