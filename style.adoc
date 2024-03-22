@@ -233,22 +233,9 @@ For example, the "Get started" section might include the following pages:
 * Set up licensing 
 * What you can do next 
 
-+
-For another example, the "Protect data" section might include the following pages: 
-+
-* Set up disaster recovery 
-* Back up your data 
-* Encrypt your data 
-* Improve ransomware protection 
-
 Individual pages (detailed level):: On each page, organize the content around the individual tasks that compose the broad tasks. For example, the content that users need to prepare for installation or to set up disaster recovery. 
 +
 A page can describe a single task or multiple tasks. If there are multiple tasks, they should be described in separate sections on the page. Each section should focus on a single learning or doing aspect of the broad task. This might include some conceptual and reference-based information that's required to complete the task.
-
-.Examples
-
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
-* https://docs.netapp.com/us-en/occm/concept_ha.html[Example #2^]
 
 == Write for a global audience
 
