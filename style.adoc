@@ -17,26 +17,16 @@ Our style is conversational and empathetic, but we stay professional and get to 
 
 Write like you speak when you're explaining something to a professional colleague. Writing in a conversational tone helps you connect with your audience.
 
-TIP: Read your writing out loud. As Elmore Leonard, an American novelist and screenwriter, said, “If it sounds like writing, I rewrite it.”
-
 |===
 |Too formal |Too casual |Our style
 
-|If you experience issues with Cloud Tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.
+|If you experience issues with BlueXP tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.
 |It's no fun when failures happen. Don't worry though, just check out the Cluster Dashboard to see what happened and what's affected.
-|When there's a failure, Cloud Tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
+|When there's a failure, BlueXP tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
 
-|You can pay for Cloud tiering in multiple ways. You can pay for Cloud Tiering through a pay-as-you-go subscription, you can pay through an ONTAP tiering license, or you can pay through a combination of both. You cannot get licensing from within Cloud Manager, you must go directly to the Cloud Tiering service to set it up.
-|We have like three ways you can pay for Cloud tiering. A pay-as-you-go subscription of course, but also an ONTAP tiering license, or even a combination of both. But you can't get licensing from Cloud Manager, so just go directly to the Cloud Tiering service to set it up.
-|Pay for Cloud Tiering through a pay-as-you-go subscription, an ONTAP tiering license, or a combination of both. Licensing isn't available from within Cloud Manager, but you can go directly to the Cloud Tiering service to set it up.
-
-|Before you can provision storage, you must discover your ONTAP cluster from Cloud Manager. After discovery is complete, you must open the working environment to provision storage.
-|All you do is first discover your ONTAP cluster from Cloud Manager, then open the working environment to start provisioning storage. Easy!
-|After you discover your ONTAP cluster from Cloud Manager, open the working environment to provision storage.
-
-|Analyze the wellness attributes of your storage system in one of two ways, depending on what you want to analyze: Either select the wellness attribute widget on the dashboard or select View All to view the entire list of wellness attributes.
-|You've got two ways to analyze your system's wellness attributes: Just select the wellness attribute widget on the dashboard. Or, if you'd rather see the whole list of wellness attributes in one view, select View All.
-|Select the wellness attribute widget on the dashboard or select View All to view the list of all actions and risks.
+|Before you can provision storage, you must discover your ONTAP cluster from BlueXP. After discovery is complete, you must open the working environment to provision storage.
+|All you do is first discover your ONTAP cluster from BlueXP, then open the working environment to start provisioning storage. Easy!
+|After you discover your ONTAP cluster from BlueXP, open the working environment to provision storage.
 
 |When the Setup wizard starts, follow the instructions in the wizard to set up the node and join it to the cluster. The following steps walk you through the steps in the wizard.
 |The Setup wizard appears (almost like magic), to guide you through the simple process of setting up the node and joining it to the cluster.
@@ -171,7 +161,7 @@ For additional verb conventions, see:
 
 == Write consistent content
 
-“Write like you speak when you're explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
+"Write like you speak when you're explaining something to a professional colleague" means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
 
 * Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
 * Be consistent within the page you're writing.
@@ -209,37 +199,62 @@ Continually evaluate content for opportunities to include helpful illustrations,
 
 == Create scannable content
 
-Use headings, lists, and tables to help users scan for what they want.
+Help readers find content quickly by organizing text under section headings and by using lists and tables. Headings, sentences, and paragraphs should be short and easy to read. The most important information should be provided first.
 
 .Examples
 
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
-* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html[Example #2^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[Example #1^]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-detailed-guide.html[Example #2^]
 
-== Focus on a user goal or a specific aspect of that goal
+== Create workflows that help users achieve their goal
 
-If you're describing how to complete a series of tasks, put it all on one page in a series of sections, including conceptual and reference-based information. Don't break up your page into several mini-pages—that requires too much clicking. At the same time, don't create long, intimidating pages. Use your best judgment to decide when a page is too long.
+Users read our content to accomplish a specific goal. Users want to find the content they need, accomplish their goals, and go home to their families. Our job is not to document products or features. Our job is to document user goals. Workflows are the most direct way to help users accomplish their goals.
+
+A workflow is a series of steps or subtasks that describes how to achieve a user goal. The scope of a workflow is a complete goal.
+
+For example, the steps to create a volume would not be a workflow, because creating a volume in itself is not a complete goal. The steps to make storage available to an ESX server could be a workflow. The steps would include not only creating a volume, but exporting the volume, setting any necessary permissions, creating a network interface, and so on.
+
+Workflows are derived from customer use cases. A workflow shows only the one best way to achieve the goal.
+
+== Organize content based on the user's goal
+
+Help users find information quickly by organizing content based on the goal that the user is trying to achieve. This standard applies to the table of contents (navigation) for a documentation site, as well as the individual pages that appear on the site.
+
+Organize content as follows: 
+
+The first entry in the left-hand navigation (high level):: Organize content around the goals that the user is trying to achieve. For example, the first entry in the navigation for the site might be “Get started” or “Protect data.” 
+
+The second-level entries in the navigation for the documentation site (medium level):: Organize content around the broad tasks that compose the goals.
++
+For example, the "Get started" section might include the following pages: 
++
+* Prepare for installation 
+* Install and set up <product name>
+* Set up licensing 
+* What you can do next 
+
++
+For another example, the "Protect data" section might include the following pages: 
++
+* Set up disaster recovery 
+* Back up your data 
+* Encrypt your data 
+* Improve ransomware protection 
+
+Individual pages (detailed level):: On each page, organize the content around the individual tasks that compose the broad tasks. For example, the content that users need to prepare for installation or to set up disaster recovery. 
++
+A page can describe a single task or multiple tasks. If there are multiple tasks, they should be described in separate sections on the page. Each section should focus on a single learning or doing aspect of the broad task. This might include some conceptual and reference-based information that's required to complete the task.
 
 .Examples
 
 * https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
 * https://docs.netapp.com/us-en/occm/concept_ha.html[Example #2^]
 
-Refer to <<workflows>> for more information around structuring a series of tasks.
-
-== Organize content around the user's goal
-
-Help users find the info they need when they need it. Get them in and out of the docs as quickly as possible, by organizing the content as follows:
-
-The first entry in the left-hand navigation (high level):: Organize content around the goals the user is trying to achieve. For example, getting started or protecting data.
-
-The second entries in the navigation (medium level):: Organize content around the broad tasks that compose the goals. For example, setting up disaster recovery or setting up data protection.
-
-Individual pages (detailed level):: Organize content around the individual tasks that compose the broad tasks, with each one focusing on a single learning or doing aspect of that broad task. For example, the tasks required to set up disaster recovery.
-
 == Write for a global audience
 
-We write for our customers and partners around the world, and much of our content is translated using Neural Machine Translation tools or human translation. Follow these guidelines for clearer writing and easier translation:
+Our documentation is read by many users whose primary language isn't English. We translate our content into other languages using Neural Machine Translation tools or human translation. To support our global audience, we write content that is easy to read and easy to translate. 
+
+Follow these guidelines to write for a global audience:
 
 * Write short, simple sentences.
 * Use standard grammar and punctuation.
@@ -516,14 +531,3 @@ An occasional screen capture (“screenshot”) helps users be confident that th
 
 * Use “while” to indicate something occurring in time.
 * Use “although” to represent an activity that occurs at nearly the same time or shortly after another activity.
-
-[id=workflows]
-=== workflows
-
-Users read our content to accomplish a specific goal. Users want to find the content they need, accomplish their goals, and go home to their families. Our job is not to document products or features. Our job is to document user goals. Workflows are the most direct way to help users accomplish their goals.
-
-A workflow is a series of steps or subtasks that describes how to achieve a user goal. The scope of a workflow is a complete goal.
-
-For example, the steps to create a volume would not be a workflow, because creating a volume in itself is not a complete goal. The steps to make storage available to an ESX server could be a workflow. The steps would include not only creating a volume, but exporting the volume, setting any necessary permissions, creating a network interface, and so on.
-
-Workflows are derived from customer use cases. A workflow shows only the one best way to achieve the goal.
