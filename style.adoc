@@ -160,12 +160,11 @@ Avoid using imperative voice to embed steps in conceptual and reference informat
 For additional verb conventions, see:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 == Write consistent content
 
-"Write like you speak when you're explaining something to a professional colleague" means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
+"Write like you speak when you're explaining something to a professional colleague" means something different to everyone. Our professional yet conversational style helps connect us to users and increases the frequency of minor inconsistencies among multiple contributing authors:
 
 * Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
 * Be consistent within the page you're writing.
@@ -262,7 +261,7 @@ Best practices on videos or animations:
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html[Example #2 Protect your ONTAP volume data with BlueXP backup and recovery^]
 
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html[Example #3 Create a replication plan - shows screenshots in a task^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html[Example #3 Create a replication plan (shows screenshots in a task)^]
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html#associate-a-marketplace-subscription-with-google-cloud-credentials[Example #4 Manage credentials in BlueXP video^]
 
@@ -419,7 +418,6 @@ Refer to <<Use lots of visuals>>.
 Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 === if not
@@ -475,9 +473,7 @@ Refer to <<Write minimally>>.
 ** Use words (not numerals) for approximate numbers.
 * Use words for numbers that are less than 10.
 * If a sentence contains a mixture of numbers less than 10 and greater than 10, use Arabic numerals for all numbers.
-* For additional number conventions, see:
-** https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-** https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
+* For additional number conventions, see https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^].
 
 === plagiarism
 
@@ -511,7 +507,6 @@ Keep it simple. In general, the more punctuation included in a sentence, the mor
 * Limit use of semicolons and colons.
 * Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 ** https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-** https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 ** https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 === since
@@ -523,7 +518,6 @@ Use “since” to indicate a passage of time. Don't use "since" to mean "becaus
 Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 === that (versus “which” or “who”)
