@@ -109,9 +109,11 @@ Ask yourself the following:
 
 == Write actively
 
-Avoiding passive voice is a standard rule for tech writing, but it's especially important to use active voice when you want to sound conversational. Use active voice so that the subject of the sentence performs the verb’s action. This typically means that the verb follows the subject of the sentence.  
+Avoiding passive voice is a standard rule for tech writing, but it's especially important to use active voice when you want to sound conversational.   
 
-Use passive voice for situations where you don’t know who or what performed the action, or for some prerequisite information where a task must already be completed.  
+
+=== Active voice
+Use active voice so that the subject of the sentence performs the verb’s action. This typically means that the verb follows the subject of the sentence. Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
 
 Here are some examples of good active voice writing. Write like this:  
 
@@ -125,15 +127,6 @@ Here are some examples of bad active voice writing:
 * A warning message is displayed if the system is shut down improperly.  
 * NetApp was awarded the contract.  
 
-
-=== Active voice
-
-In active voice, the subject of the sentence is the doer of the action:
-
-* If you shut down the system improperly, the interface displays a warning message.
-* NetApp received the contract.
-
-Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
 
 === Passive voice
 
@@ -184,7 +177,7 @@ NetApp believes that its product documentation should not contain discriminatory
 
 As you create content for NetApp products, avoid language that can be interpreted as degrading, racist, sexist, or otherwise oppressive. Instead, use language that is accessible and welcoming to everyone who needs to use the documentation. For example, instead of "master/slave" use "primary/secondary."
 
-We know that we have work to do in order to remove all non-inclusive language from our documentation and our products. We're actively working on our standards and best practices and expect to update this section with additional guidance in the future.
+NOTE: We know that we have work to do in order to remove all non-inclusive language from our documentation and our products. We're actively working on our standards and best practices and expect to update this section with additional guidance in the future.
 
 Use people-first language where we refer first to the person, followed by the disability.  
 
@@ -198,6 +191,7 @@ Don't use he, him, his, she, her, or hers in generic references. Instead:
 
 *Examples of words and phrases that are considered good and bad* 
 
+[cols=2*, options="header",cols="25,75"]
 |===
 |Good examples |Bad examples
 
@@ -247,7 +241,7 @@ The sentences should:
 
 == Use lots of visuals
 
-Most people are visual learners. Use videos, diagrams, and screenshots to improve learning. Visuals also help to break up blocks of text. Use videos, diagrams, and screenshots to improve learning, break up blocks of text, and provide a visual cue to users as to where they are in the task instructions. 
+Most people are visual learners. Use videos, diagrams, and screenshots to improve learning, break up blocks of text, and provide a visual cue to users as to where they are in the task instructions. 
 
 * Include a lead-in sentence that describes the image that follows.  
 * Use alt text on embedded visuals.  
@@ -266,7 +260,7 @@ Best practices on videos or animations:
 
 * https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1 Learn about AWS credentials and permissions^]
 
-* https://review.docs.netapp.com/us-en/bluexp-backup-recovery_br-sfr5735/concept-ontap-backup-to-cloud.html[Example #2 Protect your ONTAP volume data with BlueXP backup and recovery^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html[Example #2 Protect your ONTAP volume data with BlueXP backup and recovery^]
 
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html[Example #3 Create a replication plan - shows screenshots in a task^]
 
