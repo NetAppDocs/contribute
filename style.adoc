@@ -191,7 +191,7 @@ Don't use he, him, his, she, her, or hers in generic references. Instead:
 
 *Examples of words and phrases that are considered good and bad* 
 
-[cols=2*, options="header",cols="25,75"]
+[cols=2*, options="header",cols="50,50", width="75%"]
 |===
 |Good examples |Bad examples
 
