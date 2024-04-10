@@ -86,17 +86,17 @@ Contractions reinforce a <<Write conversationally,conversational tone>>, and man
 
 Avoid big and confusing words. Keep it simple. You're explaining something to a professional colleague, not showing off your vocabulary.
 
-**Rather than this**: “Dissociate the user from your NetApp Cloud Central account.”
+**Rather than this**: "Dissociate the user from your NetApp Cloud Central account."
 
-**Do this**: “Remove the user from your NetApp Cloud Central account.”
+**Do this**: "Remove the user from your NetApp Cloud Central account."
 
 == Write minimally
 
 Short, simple sentences make content easier to read or scan. It's okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
 
-**Rather than this**: “To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the Amazon VPC and the other network—for example, an Azure VNet or your corporate network.”
+**Rather than this**: "To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the Amazon VPC and the other network—for example, an Azure VNet or your corporate network."
 
-**Do this**: “Data replication between networks requires connection through a VPN. For example, between your Amazon VPC and your corporate network or between AWS and Azure.”
+**Do this**: "Data replication between networks requires connection through a VPN. For example, between your Amazon VPC and your corporate network or between AWS and Azure."
 
 Ask yourself the following:
 
@@ -113,20 +113,13 @@ Avoiding passive voice is a standard rule for tech writing, but it's especially 
 
 
 === Active voice
-Use active voice so that the subject of the sentence performs the verb’s action. This typically means that the verb follows the subject of the sentence. Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
+Use active voice so that the subject of the sentence performs the verb's action. This typically means that the verb follows the subject of the sentence. Active voice keeps writing crisp and clear. Use active voice and address users directly as "you" unless you have a specific reason to use passive voice.
 
 Here are some examples of good active voice writing. Write like this:  
 
 * Provide the required permissions before you deploy your first cluster.  
 * If you shut down the system improperly the interface displays a warning message.  
 * NetApp received the contract.  
-
-Here are some examples of bad active voice writing:  
-
-* The required permissions must be provided before you deploy your first cluster.  
-* A warning message is displayed if the system is shut down improperly.  
-* NetApp was awarded the contract.  
-
 
 === Passive voice
 
@@ -139,21 +132,21 @@ Use passive voice when:
 
 * You don't know who or what performed the action.
 * You want to avoid blaming users for the results of an action.
-* You can't write around it, such as for some prerequisite information.
+* You can't write around it, such as for some prerequisite information. 
 
 === Imperative mood
 
 Use imperative mood for steps, directives, requests, and headings for lists of user actions:
 
-* “On the Working Environments page, click Discover and select ONTAP Cluster.”
+* "On the Working Environments page, click Discover and select ONTAP Cluster."
 
-* “Rotate the cam handle so that it is flush against the power supply.”
+* "Rotate the cam handle so that it is flush against the power supply."
 
 Consider using imperative voice to replace passive voice:
 
-**Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
+**Rather than this**: "The required permissions must be provided before you deploy your first cluster."
 
-**Do this**: “Provide the required permissions before you deploy your first cluster.”
+**Do this**: "Provide the required permissions before you deploy your first cluster."
 
 Avoid using imperative voice to embed steps in conceptual and reference information.
 
@@ -176,26 +169,23 @@ NetApp believes that its product documentation should not contain discriminatory
 
 As you create content for NetApp products, avoid language that can be interpreted as degrading, racist, sexist, or otherwise oppressive. Instead, use language that is accessible and welcoming to everyone who needs to use the documentation. For example, instead of "master/slave" use "primary/secondary."
 
-NOTE: We know that we have work to do in order to remove all non-inclusive language from our documentation and our products. We're actively working on our standards and best practices and expect to update this section with additional guidance in the future.
-
 Use people-first language where we refer first to the person, followed by the disability.  
 
 Don't use he, him, his, she, her, or hers in generic references. Instead: 
 
 * Rewrite the sentence to use the second person (you). 
 * Rewrite the sentence to have a plural noun and pronoun. 
-* Use “the” or “a” instead of a pronoun (for example, “the document”). 
+* Use "the" or "a" instead of a pronoun (for example, "the document"). 
 * Refer to a person's role (for example, reader, employee, customer, or client). 
-* Use the term “person” or “individual”. 
+* Use the term "person" or "individual". 
 
-*Examples of words and phrases that are considered good and bad* 
+*Examples of words and phrases that are considered inclusive or exclusive* 
 
 [cols=2*, options="header",cols="50,50", width="75%"]
 |===
-|Good examples |Bad examples
+|Inclusive examples |Exclusive examples
 
-|Primary | Secondary
-|Secondary | Slave
+|Primary/secondary | Master/slave
 |Allowed list | Whitelist
 |Blocked list | Blacklist
 |Stop | Kill
@@ -213,18 +203,12 @@ Don't use he, him, his, she, her, or hers in generic references. Instead:
 
 Each page should start with what's most important to the user. We need to find out what the user is trying to do and focus on helping them achieve that goal. We should also add keywords at the beginning of the sentence to improve scan ability. 
 
-The sentences should: 
+Follow these general sentence guidelines: 
 
-* Be precise 
-* Avoid filler words 
-* Be short 
-* Use formatted text or bulleted lists to highlight key points 
-
-
-
-**Rather than this**: “Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.”
-
-**Do this**: “If your business has strict security policies, use data-in-flight encryption to sync data between NFS servers in different networks.”
+* Be precise.
+* Avoid filler words. 
+* Be short. 
+* Use formatted text or bulleted lists to highlight key points.
 
 *Examples of getting to the point* 
 
@@ -233,7 +217,7 @@ The sentences should:
 
 |If your business has strict security policies, use data-in-flight encryption to sync data between NFS servers in different networks.  | Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.
 |Save time by creating a document template that includes the styles, formats, and page layouts you use most often. Then use the template whenever you create a new document. | Templates provide a starting point for creating new documents. A template can include the styles, formats, and page layouts you use frequently. Consider creating a template if you often use the same page layout and style for documents.
-|Workload Factory provides three operational modes that you can assign to your users to carefully control access between Workload Factory and your cloud environment. | Workload Factory enables you to assign one of three operational modes for users in your AWS accounts. The modes allow you to carefully control access between Workload Factory and your cloud estate based on your IT policies.
+|Astra Control provides three operational modes that you can assign to your users to carefully control access between Astra Control and your cloud environment. | Astra Control enables you to assign one of three operational modes for users in your AWS accounts. The modes allow you to carefully control access between Astra Control and your cloud estate based on your IT policies.
 
 |===
 
@@ -242,14 +226,16 @@ The sentences should:
 
 Most people are visual learners. Use videos, diagrams, and screenshots to improve learning, break up blocks of text, and provide a visual cue to users as to where they are in the task instructions. 
 
-* Include a lead-in sentence that describes the image that follows.  
+* Include a lead-in sentence that describes the image that follows: "The following illustration shows the AC power supply LEDs on the back panel."
+* Refer to the location of the illustration as "following" or "preceding," not "above" or "below."
 * Use alt text on embedded visuals.  
-* If the visual pertains to a step, include the visual right after the step and indented to align with the step number. 
+* If the visual pertains to a step, include the visual right after the step and indented to align with the step number.
 
 Best practices on screenshots:  
 
 * Include no more than 5 screenshots per task.  
-* Don’t include text in a screenshot. Use numbered callouts instead.  
+* Don't include text in a screenshot. Use numbered callouts instead. 
+* Be judicious with the screenshots you choose to include. Screenshots can go out of date quickly. 
 
 Best practices on videos or animations:  
 
@@ -265,10 +251,6 @@ Best practices on videos or animations:
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html#associate-a-marketplace-subscription-with-google-cloud-credentials[Example #4 Manage credentials in BlueXP video^]
 
-Continually evaluate content for opportunities to include helpful illustrations, diagrams, flow charts, screen captures, or other visual references. Graphics often convey complex concepts and steps more clearly than text.
-
-* Include a description of what the illustration is intended to communicate: “The following illustration shows the AC power supply LEDs on the back panel.
-* Refer to the location of the illustration as “following” or “preceding,” not “above” or “below.”
 
 == Create scannable content
 
@@ -295,7 +277,7 @@ Help users find information quickly by organizing content based on the goal that
 
 Organize content as follows: 
 
-The first entry in the left-hand navigation (high level):: Organize content around the goals that the user is trying to achieve. For example, the first entry in the navigation for the site might be “Get started” or “Protect data.” 
+The first entry in the left-hand navigation (high level):: Organize content around the goals that the user is trying to achieve. For example, the first entry in the navigation for the site might be "Get started" or "Protect data." 
 
 The second-level entries in the navigation for the documentation site (medium level):: Organize content around the broad tasks that compose the goals.
 +
@@ -344,7 +326,7 @@ Use the following labels to identify content separately from the main content fl
 
 * NOTE
 +
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
+Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for "nice to know" information that isn't required for users to learn about the task or complete the task.
 
 * TIP
 +
@@ -354,36 +336,36 @@ Use TIP sparingly, if at all, because our policy is to always document best-prac
 +
 Use CAUTION to warn users about conditions or procedures that can cause personal injury that is not lethal or extremely hazardous.
 
-=== after (versus “once”)
+=== after (versus "once")
 
-* Use “after” to indicate a chronology: “Turn on your computer after you plug it in.”
-* Use “once” only to mean “one time.”
+* Use "after" to indicate a chronology: "Turn on your computer after you plug it in."
+* Use "once" only to mean "one time."
 
 === also
 
 * Use "also" to mean "additionally."
-* Don't use "also" to mean “alternatively.”
+* Don't use "also" to mean "alternatively."
 
 === and/or
 
-Choose the more precise term if there is one. If neither term is more precise than the other, use “and/or.”
+Choose the more precise term if there is one. If neither term is more precise than the other, use "and/or."
 
 === as
 
-Don't use “as” to mean “because.”
+Don't use "as" to mean "because."
 
-=== by using (versus “using” or “with”)
+=== by using (versus "using" or "with")
 
-* Use “by using” when the entity that is doing the using is the subject: “You can add new components to the repository by using the Components menu.”
-* You can begin a sentence with either "using" or "with," which are sometimes acceptable with product names: “Using SnapDrive, you can manage virtual disks and Snapshot copies in a Windows environment.”
+* Use "by using" when the entity that is doing the using is the subject: "You can add new components to the repository by using the Components menu."
+* You can begin a sentence with either "using" or "with," which are sometimes acceptable with product names: "Using SnapDrive, you can manage virtual disks and Snapshot copies in a Windows environment."
 
-=== can (versus “might,” “may,” “should,” or “must”)
+=== can (versus "might," "may," "should," or "must")
 
-* Use “can” to indicate capability: “You can commit your changes at any time during this procedure.”
-* Use “might” to indicate possibility: “Downloading multiple programs might affect processing time.”
-* Don't use “may,” which is ambiguous because it could mean either capability or permission.
-* Use “should” to indicate a recommended but optional action. Consider using an alternative phrase instead, such as “we recommend.”
-* Avoid using “must” because it's <<Write actively,passive>>. Consider restating the thought as an instruction using imperative voice. If you use “must,” use it to indicate a required action or condition.
+* Use "can" to indicate capability: "You can commit your changes at any time during this procedure."
+* Use "might" to indicate possibility: "Downloading multiple programs might affect processing time."
+* Don't use "may," which is ambiguous because it could mean either capability or permission.
+* Use "should" to indicate a recommended but optional action. Consider using an alternative phrase instead, such as "we recommend."
+* Avoid using "must" because it's <<Write actively,passive>>. Consider restating the thought as an instruction using imperative voice. If you use "must," use it to indicate a required action or condition.
 
 === capitalization
 
@@ -403,11 +385,11 @@ Refer to <<admonitions>>.
 
 Use <<contractions,contractions>> as part of writing conversationally.
 
-=== ensure (versus “confirm” or “verify”)
+=== ensure (versus "confirm" or "verify")
 
-* Use “ensure” to mean "to make certain." Include “that,” as appropriate: "Ensure that there is sufficient white space around illustrations."
-* Never use “ensure” to imply a promise or guarantee: “Use Cloud Manager to ensure that you can provision NFS and CIFS volumes on ONTAP clusters.”
-* Use “confirm” or “verify” when you mean that the user should double-check something that already exists or has happened already: “Verify that NFS is set up on the cluster.”
+* Use "ensure" to mean "to make certain." Include "that," as appropriate: "Ensure that there is sufficient white space around illustrations."
+* Never use "ensure" to imply a promise or guarantee: "Use Cloud Manager to ensure that you can provision NFS and CIFS volumes on ONTAP clusters."
+* Use "confirm" or "verify" when you mean that the user should double-check something that already exists or has happened already: "Verify that NFS is set up on the cluster."
 
 === graphics
 
@@ -422,17 +404,17 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 
 === if not
 
-Don't use “if not” by itself to refer to the previous sentence:
+Don't use "if not" by itself to refer to the previous sentence:
 
-* **Rather than this**: “The computer should be off. If not, turn it off.”
+* **Rather than this**: "The computer should be off. If not, turn it off."
 
 * **Do this**: "Verify that the computer is off."
 
-=== if (versus “whether” or “when”)
+=== if (versus "whether" or "when")
 
-* Use “if” to indicate a condition, such as in "if this, then that" constructions.
-* Use “whether” when there is a stated or implied "or not" condition. To ease translation, it is often best to replace "whether or not" with "whether" alone.
-* Use “when” to indicate a passage of time.
+* Use "if" to indicate a condition, such as in "if this, then that" constructions.
+* Use "whether" when there is a stated or implied "or not" condition. To ease translation, it is often best to replace "whether or not" with "whether" alone.
+* Use "when" to indicate a passage of time.
 
 === imperative voice
 
@@ -440,7 +422,7 @@ Refer to <<Write actively>>.
 
 === future functionality or releases
 
-Don't refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is “not currently supported.”
+Don't refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is "not currently supported."
 
 === KB articles: referring to
 
@@ -483,27 +465,27 @@ We document NetApp products and the interaction of NetApp products with third-pa
 
 Prerequisites identify the conditions that must exist or the actions that users must have completed before they start the current task.
 
-* Identify the nature of the content with a heading, such as “Prerequisites,” “Before you begin,” or “Before you get started.”
+* Identify the nature of the content with a heading, such as "Prerequisites," "Before you begin," or "Before you get started."
 * Use passive voice for prerequisite wording if it makes sense to do so:
-** “NFS or CIFS must be set up on the cluster.”
-** “You must have the cluster management IP address and the password for the admin user account to add the cluster to Cloud Manager.”
-* Clarify the prerequisite as needed: “NFS or CIFS must be set up on the cluster. You can set up NFS and CIFS using System Manager or the CLI.”
+** "NFS or CIFS must be set up on the cluster."
+** "You must have the cluster management IP address and the password for the admin user account to add the cluster to Cloud Manager."
+* Clarify the prerequisite as needed: "NFS or CIFS must be set up on the cluster. You can set up NFS and CIFS using System Manager or the CLI."
 * Consider other ways to present the information, for example whether it would be appropriate to reword the content as the first step in the current task:
-** Prerequisite: “You must have the required permissions before you deploy your first cluster.”
-** Step: “Provide the required permissions to deploy your first cluster.”
+** Prerequisite: "You must have the required permissions before you deploy your first cluster."
+** Step: "Provide the required permissions to deploy your first cluster."
 
-=== prior (versus “before,” “previous,” or “preceding”)
+=== prior (versus "before," "previous," or "preceding")
 
-* If possible, replace “prior” with “before.”
-* If you can't use “before,” use “prior” as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
-* Use “previous” to indicate something that occurred at an unspecified time earlier.
-* Use “preceding” to indicate something that occurred immediately beforehand.
+* If possible, replace "prior" with "before."
+* If you can't use "before," use "prior" as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
+* Use "previous" to indicate something that occurred at an unspecified time earlier.
+* Use "preceding" to indicate something that occurred immediately beforehand.
 
 === punctuation
 
 Keep it simple. In general, the more punctuation included in a sentence, the more brain cells it takes to understand.
 
-* Use a serial comma (Oxford comma) before the conjunction (“and” or “or”) in a narrative list of three or more items.
+* Use a serial comma (Oxford comma) before the conjunction ("and" or "or") in a narrative list of three or more items.
 * Limit use of semicolons and colons.
 * Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 ** https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
@@ -511,7 +493,7 @@ Keep it simple. In general, the more punctuation included in a sentence, the mor
 
 === since
 
-Use “since” to indicate a passage of time. Don't use "since" to mean "because."
+Use "since" to indicate a passage of time. Don't use "since" to mean "because."
 
 === spelling
 
@@ -520,12 +502,12 @@ Except where noted otherwise, follow the grammar, punctuation, and spelling conv
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
-=== that (versus “which” or “who”)
+=== that (versus "which" or "who")
 
-* Use “that” (without a trailing comma) to introduce clauses that are required for the sentence to make sense.
-* Use “that” even if the sentence is clear in English without it: "Verify that the computer is off."
-* Use “which” (with a trailing comma) to introduce clauses that add supporting information but are not required for the sentence to make sense.
-* Use “who” to introduce clauses referring to people.
+* Use "that" (without a trailing comma) to introduce clauses that are required for the sentence to make sense.
+* Use "that" even if the sentence is clear in English without it: "Verify that the computer is off."
+* Use "which" (with a trailing comma) to introduce clauses that add supporting information but are not required for the sentence to make sense.
+* Use "who" to introduce clauses referring to people.
 
 === trademarks
 
@@ -546,9 +528,9 @@ Use a simple and mimimal style when documenting UIs.
 ====
 * Assume that the user is using the interface while reading the content:
 ** Don't walk the user through a wizard or screen step by step. Only call out important things that are not apparent from the interface.
-** Don't include “click OK” or “click Save” or “the volume is created” or anything else that's obvious to someone doing the task.
+** Don't include "click OK" or "click Save" or "the volume is created" or anything else that's obvious to someone doing the task.
 ** Assume success. Unless you expect an operation to fail most of the time, do not document the failure path. Assume that the interface provides proper guidance.
-* Don't use “click” at all. Always use “select” because that word covers mouse, touch, keyboard, and any other way of making a choice.
+* Don't use "click" at all. Always use "select" because that word covers mouse, touch, keyboard, and any other way of making a choice.
 * Focus content on a workflow that addresses a customer use case and on getting the user to the right place in the interface to start the workflow.
 * Always document the one best way to achieve the user goal.
 * If the workflow requires a significant decision, make sure to document a decision rule.
@@ -560,7 +542,7 @@ Use a simple and mimimal style when documenting UIs.
 Avoid documenting to the level of granularity that requires naming UI elements. 
 [%collapsible]
 ====
-Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, “Select the desired volume” or “Select 'Use existing volume'.” There is no need to name menus or radio buttons or checkboxes, just use the label.
+Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, "Select the desired volume" or "Select 'Use existing volume'." There is no need to name menus or radio buttons or checkboxes, just use the label.
 
 For icons that users must select, use an image of the icon. Don't try to name it. This rule applies to icons like the arrow, pencil, gear, kabob, hamburger, and so on.
 ====
@@ -578,11 +560,11 @@ If a label is followed by ellipses, do not include the ellipses when naming the 
 Use screen captures sparingly.
 [%collapsible]
 ====
-An occasional screen capture (“screenshot”) helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
+An occasional screen capture ("screenshot") helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
 ====
 //end snippet
 
-=== while (versus “although”)
+=== while (versus "although")
 
-* Use “while” to indicate something occurring in time.
-* Use “although” to represent an activity that occurs at nearly the same time or shortly after another activity.
+* Use "while" to indicate something occurring in time.
+* Use "although" to represent an activity that occurs at nearly the same time or shortly after another activity.
