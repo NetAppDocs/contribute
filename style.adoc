@@ -17,26 +17,16 @@ Our style is conversational and empathetic, but we stay professional and get to 
 
 Write like you speak when you're explaining something to a professional colleague. Writing in a conversational tone helps you connect with your audience.
 
-TIP: Read your writing out loud. As Elmore Leonard, an American novelist and screenwriter, said, “If it sounds like writing, I rewrite it.”
-
 |===
 |Too formal |Too casual |Our style
 
-|If you experience issues with Cloud Tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.
+|If you experience issues with BlueXP tiering, you can view the health status on the Cluster Dashboard to determine why the error occurred. The health reflects the status of the ONTAP system and the Service Connector.
 |It's no fun when failures happen. Don't worry though, just check out the Cluster Dashboard to see what happened and what's affected.
-|When there's a failure, Cloud Tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
+|When there's a failure, BlueXP tiering displays a "Failed" health status on the Cluster Dashboard. View the status to get information about the failure.
 
-|You can pay for Cloud tiering in multiple ways. You can pay for Cloud Tiering through a pay-as-you-go subscription, you can pay through an ONTAP tiering license, or you can pay through a combination of both. You cannot get licensing from within Cloud Manager, you must go directly to the Cloud Tiering service to set it up.
-|We have like three ways you can pay for Cloud tiering. A pay-as-you-go subscription of course, but also an ONTAP tiering license, or even a combination of both. But you can't get licensing from Cloud Manager, so just go directly to the Cloud Tiering service to set it up.
-|Pay for Cloud Tiering through a pay-as-you-go subscription, an ONTAP tiering license, or a combination of both. Licensing isn't available from within Cloud Manager, but you can go directly to the Cloud Tiering service to set it up.
-
-|Before you can provision storage, you must discover your ONTAP cluster from Cloud Manager. After discovery is complete, you must open the working environment to provision storage.
-|All you do is first discover your ONTAP cluster from Cloud Manager, then open the working environment to start provisioning storage. Easy!
-|After you discover your ONTAP cluster from Cloud Manager, open the working environment to provision storage.
-
-|Analyze the wellness attributes of your storage system in one of two ways, depending on what you want to analyze: Either select the wellness attribute widget on the dashboard or select View All to view the entire list of wellness attributes.
-|You've got two ways to analyze your system's wellness attributes: Just select the wellness attribute widget on the dashboard. Or, if you'd rather see the whole list of wellness attributes in one view, select View All.
-|Select the wellness attribute widget on the dashboard or select View All to view the list of all actions and risks.
+|Before you can provision storage, you must discover your ONTAP cluster from BlueXP. After discovery is complete, you must open the working environment to provision storage.
+|All you do is first discover your ONTAP cluster from BlueXP, then open the working environment to start provisioning storage. Easy!
+|After you discover your ONTAP cluster from BlueXP, open the working environment to provision storage.
 
 |When the Setup wizard starts, follow the instructions in the wizard to set up the node and join it to the cluster. The following steps walk you through the steps in the wizard.
 |The Setup wizard appears (almost like magic), to guide you through the simple process of setting up the node and joining it to the cluster.
@@ -47,33 +37,131 @@ TIP: Read your writing out loud. As Elmore Leonard, an American novelist and scr
 |Choose a content format type to guide you through installing and setting up your system.
 |===
 
+[id=contractions]
+=== Use contractions
+
+Contractions reinforce a <<Write conversationally,conversational tone>>, and many contractions are easy to understand and translate.
+
+.Expand to learn more
+[%collapsible]
+====
+* Use contractions like these, which are easy to understand and translate:
++
+|===
+
+| aren't | you're
+
+| isn't | we're
+
+| wasn't | it's
+
+| weren't | let's
+
+| didn't | we'll (if future tense is required)
+
+| doesn't | won't (if future tense is required)
+
+| don't | you'll (if future tense is required)
+
+| can't
+
+|===
+
+* Don't use contractions like these, which are hard to understand and translate:
++
+|===
+
+| would've | should've
+
+| wouldn't've | shouldn't've
+
+| could've | couldn't've
+
+|===
+
+====
+// End snippet
+
 == Write simply
 
 Avoid big and confusing words. Keep it simple. You're explaining something to a professional colleague, not showing off your vocabulary.
 
-**Rather than this**: “Dissociate the user from your NetApp Cloud Central account.”
+**Rather than this**: "Dissociate the user from your NetApp Cloud Central account."
 
-**Do this**: “Remove the user from your NetApp Cloud Central account.”
+**Do this**: "Remove the user from your NetApp Cloud Central account."
 
 == Write minimally
 
 Short, simple sentences make content easier to read or scan. It's okay to use a longer sentence every now and then but follow it with a shorter one. Like this.
 
-**Rather than this**: “To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the Amazon VPC and the other network—for example, an Azure VNet or your corporate network.”
+**Rather than this**: "To replicate data between a Cloud Volumes ONTAP system in AWS and ONTAP systems in other networks, you must have a VPN connection between the Amazon VPC and the other network—for example, an Azure VNet or your corporate network."
 
-**Do this**: “Data replication between networks requires connection through a VPN. For example, between your Amazon VPC and your corporate network or between AWS and Azure.”
+**Do this**: "Data replication between networks requires connection through a VPN. For example, between your Amazon VPC and your corporate network or between AWS and Azure."
 
-See also <<minimalism>>.
+Ask yourself the following:
+
+* Do users need this content at this place, at this time?
+* Does the user interface already guide the user well enough? If it doesn't, what additional guidance can be added succinctly?
+* Can I present the content in fewer words without sounding too formal or too casual?
+* Can I shorten or simplify a long sentence or break it into two or more sentences?
+* Can I use a list to make the content more scannable?
+* Can I use a graphic to augment or replace a block of text?
 
 == Write actively
 
-Avoiding passive voice is a standard rule for tech writing, but it's especially important to use active voice when you want to sound conversational.
+Avoiding passive voice is a standard rule for tech writing, but it's especially important to use active voice when you want to sound conversational.   
 
-**Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
 
-**Do this**: “Provide the required permissions before you deploy your first cluster.”
+=== Active voice
+Use active voice so that the subject of the sentence performs the verb's action. This typically means that the verb follows the subject of the sentence. Active voice keeps writing crisp and clear. Use active voice and address users directly as "you" unless you have a specific reason to use passive voice.
 
-See also <<active voice (versus “passive voice”)>>.
+Here are some examples of good active voice writing. Write like this:  
+
+* Provide the required permissions before you deploy your first cluster.  
+* If you shut down the system improperly the interface displays a warning message.  
+* NetApp received the contract.  
+
+=== Passive voice
+
+In passive voice, the doer of the action is unclear:
+
+* A warning message is displayed if the system is shut down improperly.
+* NetApp was awarded the contract.
+
+Use passive voice when:
+
+* You don't know who or what performed the action.
+* You want to avoid blaming users for the results of an action.
+* You can't write around it, such as for some prerequisite information. 
+
+=== Imperative mood
+
+Use imperative mood for steps, directives, requests, and headings for lists of user actions:
+
+* "On the Working Environments page, click Discover and select ONTAP Cluster."
+
+* "Rotate the cam handle so that it is flush against the power supply."
+
+Consider using imperative voice to replace passive voice:
+
+**Rather than this**: "The required permissions must be provided before you deploy your first cluster."
+
+**Do this**: "Provide the required permissions before you deploy your first cluster."
+
+Avoid using imperative voice to embed steps in conceptual and reference information.
+
+For additional verb conventions, see:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
+* https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
+
+== Write consistent content
+
+"Write like you speak when you're explaining something to a professional colleague" means something different to everyone. Our professional yet conversational style helps connect us to users and increases the frequency of minor inconsistencies among multiple contributing authors:
+
+* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
+* Be consistent within the page you're writing.
+* Always follow the guidelines in <<Write for a global audience>>.
 
 == Use inclusive language
 
@@ -81,58 +169,134 @@ NetApp believes that its product documentation should not contain discriminatory
 
 As you create content for NetApp products, avoid language that can be interpreted as degrading, racist, sexist, or otherwise oppressive. Instead, use language that is accessible and welcoming to everyone who needs to use the documentation. For example, instead of "master/slave" use "primary/secondary."
 
-We know that we have work to do in order to remove all non-inclusive language from our documentation and our products. We're actively working on our standards and best practices and expect to update this section with additional guidance in the future.
+Use people-first language where we refer first to the person, followed by the disability.  
+
+Don't use he, him, his, she, her, or hers in generic references. Instead: 
+
+* Rewrite the sentence to use the second person (you). 
+* Rewrite the sentence to have a plural noun and pronoun. 
+* Use "the" or "a" instead of a pronoun (for example, "the document"). 
+* Refer to a person's role (for example, reader, employee, customer, or client). 
+* Use the term "person" or "individual". 
+
+*Examples of words and phrases that are considered inclusive or exclusive* 
+
+[cols=2*, options="header",cols="50,50", width="75%"]
+|===
+|Inclusive examples |Exclusive examples
+
+|Primary/secondary | Master/slave
+|Allowed list | Whitelist
+|Blocked list | Blacklist
+|Stop | Kill
+|Stop responding | Hang
+|End or Cancel | Abort
+|Person hour | Man hour
+|Developers need access to servers in their development environments, but they don't need access to the servers in Azure. | A developer needs access to servers in his development environment, but he doesn't need access to servers in Azure. 
+|Person who is blind | Sight-impaired
+|Person with low vision | Vision-impaired
+
+|===
+
 
 == Get to the point
 
-Start with what's important to the user. Find out what the user is trying to do and focus on helping them achieve that goal.
+Each page should start with what's most important to the user. We need to find out what the user is trying to do and focus on helping them achieve that goal. We should also add keywords at the beginning of the sentence to improve scan ability. 
 
-**Rather than this**: “Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.”
+Follow these general sentence guidelines: 
 
-**Do this**: “If your business has strict security policies, use data-in-flight encryption to sync data between NFS servers in different networks.”
+* Be precise.
+* Avoid filler words. 
+* Be short. 
+* Use formatted text or bulleted lists to highlight key points.
+
+*Examples of getting to the point* 
+
+|===
+|Good examples |Bad examples
+
+|If your business has strict security policies, use data-in-flight encryption to sync data between NFS servers in different networks.  | Cloud Sync can sync data from one NFS server to another NFS server using data-in-flight encryption. Encrypting the data can help if you have strict security policies for transferring data over networks.
+|Save time by creating a document template that includes the styles, formats, and page layouts you use most often. Then use the template whenever you create a new document. | Templates provide a starting point for creating new documents. A template can include the styles, formats, and page layouts you use frequently. Consider creating a template if you often use the same page layout and style for documents.
+|Astra Control provides three operational modes that you can assign to your users to carefully control access between Astra Control and your cloud environment. | Astra Control enables you to assign one of three operational modes for users in your AWS accounts. The modes allow you to carefully control access between Astra Control and your cloud estate based on your IT policies.
+
+|===
+
 
 == Use lots of visuals
 
-Most people are visual learners. Use videos, diagrams, and screenshots to improve learning. Visuals also help to break up blocks of text.
+Most people are visual learners. Use videos, diagrams, and screenshots to improve learning, break up blocks of text, and provide a visual cue to users as to where they are in the task instructions. 
+
+* Include a lead-in sentence that describes the image that follows: "The following illustration shows the AC power supply LEDs on the back panel."
+* Refer to the location of the illustration as "following" or "preceding," not "above" or "below."
+* Use alt text on embedded visuals.  
+* If the visual pertains to a step, include the visual right after the step and indented to align with the step number.
+
+Best practices on screenshots:  
+
+* Include no more than 5 screenshots per task.  
+* Don't include text in a screenshot. Use numbered callouts instead. 
+* Be judicious with the screenshots you choose to include. Screenshots can go out of date quickly. 
+
+Best practices on videos or animations:  
+
+* Videos should be under 5 minutes in length. 
 
 .Examples
 
-* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1^]
-* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html[Example #2^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html[Example #1 Learn about AWS credentials and permissions^]
 
-See also <<graphics>>.
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html[Example #2 Protect your ONTAP volume data with BlueXP backup and recovery^]
+
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html[Example #3 Create a replication plan (shows screenshots in a task)^]
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html#associate-a-marketplace-subscription-with-google-cloud-credentials[Example #4 Manage credentials in BlueXP video^]
+
 
 == Create scannable content
 
-Use headings, lists, and tables to help users scan for what they want.
+Help readers find content quickly by organizing text under section headings and by using lists and tables. Headings, sentences, and paragraphs should be short and easy to read. The most important information should be provided first.
 
 .Examples
 
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
-* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html[Example #2^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[Example #1^]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-detailed-guide.html[Example #2^]
 
-== Focus on a user goal or a specific aspect of that goal
+== Create workflows that help users achieve their goal
 
-If you're describing how to complete a series of tasks, put it all on one page in a series of sections, including conceptual and reference-based information. Don't break up your page into several mini-pages—that requires too much clicking. At the same time, don't create long, intimidating pages. Use your best judgment to decide when a page is too long.
+Users read our content to accomplish a specific goal. Users want to find the content they need, accomplish their goals, and go home to their families. Our job is not to document products or features. Our job is to document user goals. Workflows are the most direct way to help users accomplish their goals.
 
-.Examples
+A workflow is a series of steps or subtasks that describes how to achieve a user goal. The scope of a workflow is a complete goal.
 
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html[Example #1^]
-* https://docs.netapp.com/us-en/occm/concept_ha.html[Example #2^]
+For example, the steps to create a volume would not be a workflow, because creating a volume in itself is not a complete goal. The steps to make storage available to an ESX server could be a workflow. The steps would include not only creating a volume, but exporting the volume, setting any necessary permissions, creating a network interface, and so on.
 
-== Organize content around the user's goal
+Workflows are derived from customer use cases. A workflow shows only the one best way to achieve the goal.
 
-Help users find the info they need when they need it. Get them in and out of the docs as quickly as possible, by organizing the content as follows:
+== Organize content based on the user's goal
 
-The first entry in the left-hand navigation (high level):: Organize content around the goals the user is trying to achieve. For example, getting started or protecting data.
+Help users find information quickly by organizing content based on the goal that the user is trying to achieve. This standard applies to the table of contents (navigation) for a documentation site, as well as the individual pages that appear on the site.
 
-The second entries in the navigation (medium level):: Organize content around the broad tasks that compose the goals. For example, setting up disaster recovery or setting up data protection.
+Organize content as follows: 
 
-Individual pages (detailed level):: Organize content around the individual tasks that compose the broad tasks, with each one focusing on a single learning or doing aspect of that broad task. For example, the tasks required to set up disaster recovery.
+The first entry in the left-hand navigation (high level):: Organize content around the goals that the user is trying to achieve. For example, the first entry in the navigation for the site might be "Get started" or "Protect data." 
+
+The second-level entries in the navigation for the documentation site (medium level):: Organize content around the broad tasks that compose the goals.
++
+For example, the "Get started" section might include the following pages: 
++
+* Prepare for installation 
+* Install and set up <product name>
+* Set up licensing 
+* What you can do next 
+
+Individual pages (detailed level):: On each page, organize the content around the individual tasks that compose the broad tasks. For example, the content that users need to prepare for installation or to set up disaster recovery. 
++
+A page can describe a single task or multiple tasks. If there are multiple tasks, they should be described in separate sections on the page. Each section should focus on a single learning or doing aspect of the broad task. This might include some conceptual and reference-based information that's required to complete the task.
 
 == Write for a global audience
 
-We write for our customers and partners around the world, and much of our content is translated using Neural Machine Translation tools or human translation. Follow these guidelines for clearer writing and easier translation:
+Our documentation is read by many users whose primary language isn't English. We translate our content into other languages using Neural Machine Translation tools or human translation. To support our global audience, we write content that is easy to read and easy to translate. 
+
+Follow these guidelines to write for a global audience:
 
 * Write short, simple sentences.
 * Use standard grammar and punctuation.
@@ -151,39 +315,18 @@ We write for our customers and partners around the world, and much of our conten
 
 == A to Z guidelines
 
-=== active voice (versus “passive voice”)
+=== active voice (versus passive voice)
 
-In active voice, the subject of the sentence is the doer of the action:
+Refer to <<Write actively>>.
 
-* If you shut down the system improperly, the interface displays a warning message.
-* NetApp received the contract.
-
-Active voice keeps writing crisp and clear. Use active voice and address users directly as “you” unless you have a specific reason to use passive voice.
-
-In passive voice, the doer of the action is unclear:
-
-* A warning message is displayed if the system is shut down improperly.
-* NetApp was awarded the contract.
-
-Use passive voice when:
-
-* You don't know who or what performed the action.
-* You want to avoid blaming users for the results of an action.
-* You can't write around it, such as for some prerequisite information.
-
-For additional verb conventions, see:
-
-* https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
-* https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
-
+[id=admonitions]
 === admonitions
 
 Use the following labels to identify content separately from the main content flow:
 
 * NOTE
 +
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
+Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for "nice to know" information that isn't required for users to learn about the task or complete the task.
 
 * TIP
 +
@@ -193,36 +336,36 @@ Use TIP sparingly, if at all, because our policy is to always document best-prac
 +
 Use CAUTION to warn users about conditions or procedures that can cause personal injury that is not lethal or extremely hazardous.
 
-=== after (versus “once”)
+=== after (versus "once")
 
-* Use “after” to indicate a chronology: “Turn on your computer after you plug it in.”
-* Use “once” only to mean “one time.”
+* Use "after" to indicate a chronology: "Turn on your computer after you plug it in."
+* Use "once" only to mean "one time."
 
 === also
 
 * Use "also" to mean "additionally."
-* Don't use "also" to mean “alternatively.”
+* Don't use "also" to mean "alternatively."
 
 === and/or
 
-Choose the more precise term if there is one. If neither term is more precise than the other, use “and/or.”
+Choose the more precise term if there is one. If neither term is more precise than the other, use "and/or."
 
 === as
 
-Don't use “as” to mean “because.”
+Don't use "as" to mean "because."
 
-=== by using (versus “using” or “with”)
+=== by using (versus "using" or "with")
 
-* Use “by using” when the entity that is doing the using is the subject: “You can add new components to the repository by using the Components menu.”
-* You can begin a sentence with either "using" or "with," which are sometimes acceptable with product names: “Using SnapDrive, you can manage virtual disks and Snapshot copies in a Windows environment.”
+* Use "by using" when the entity that is doing the using is the subject: "You can add new components to the repository by using the Components menu."
+* You can begin a sentence with either "using" or "with," which are sometimes acceptable with product names: "Using SnapDrive, you can manage virtual disks and Snapshot copies in a Windows environment."
 
-=== can (versus “might,” “may,” “should,” or “must”)
+=== can (versus "might," "may," "should," or "must")
 
-* Use “can” to indicate capability: “You can commit your changes at any time during this procedure.”
-* Use “might” to indicate possibility: “Downloading multiple programs might affect processing time.”
-* Don't use “may,” which is ambiguous because it could mean either capability or permission.
-* Use “should” to indicate a recommended but optional action. Consider using an alternative phrase instead, such as “we recommend.”
-* Avoid using “must” because it's passive. Consider restating the thought as an instruction using imperative voice. If you do use “must,” use it to indicate a required action or condition.
+* Use "can" to indicate capability: "You can commit your changes at any time during this procedure."
+* Use "might" to indicate possibility: "Downloading multiple programs might affect processing time."
+* Don't use "may," which is ambiguous because it could mean either capability or permission.
+* Use "should" to indicate a recommended but optional action. Consider using an alternative phrase instead, such as "we recommend."
+* Avoid using "must" because it's <<Write actively,passive>>. Consider restating the thought as an instruction using imperative voice. If you use "must," use it to indicate a required action or condition.
 
 === capitalization
 
@@ -234,108 +377,52 @@ Use sentence-style capitalization (lowercase) for almost everything. Only capita
 * Doc titles and subtitles (capitalize all major words and prepositions of five or more letters)
 * UI elements, but only if they are capitalized in the interface. Otherwise, use lowercase.
 
-=== CAUTION notices
+=== caution notices
 
-Use CAUTION to warn users about conditions or procedures that can cause personal injury that is not lethal or extremely hazardous.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
-
-=== consistency
-
-“Write like you speak when you're explaining something to a professional colleague” means something different to everyone. Our professionally conversational style helps connect us to users—and increases the frequency of minor inconsistencies among multiple contributing authors:
-
-* Focus on making the content clear and easy to use. If all content is clear and easy to use, minor inconsistencies don't matter.
-* Be consistent within the page you're writing.
-* Always follow the guidelines in <<Write for a global audience>>.
+Refer to <<admonitions>>.
 
 === contractions
 
-Contractions reinforce a conversational tone, and many contractions are easy to understand and translate.
+Use <<contractions,contractions>> as part of writing conversationally.
 
-.Do use contractions like these, which are easy to understand and translate:
+=== ensure (versus "confirm" or "verify")
 
-* aren't
-* can't
-* didn't
-* doesn't
-* don't
-* isn't
-* it's
-* let's
-* wasn't
-* we're
-* weren't
-* you're
-
-.Don't use these contractions when future tense is required:
-
-* we'll
-* won't
-* you'll
-
-.Don't use contractions like these, which are hard to understand and translate:
-
-* could've
-* couldn't've
-* should've
-* shouldn't've
-* would've
-* wouldn't've
-
-=== ensure (versus “confirm” or “verify”)
-
-* Use “ensure” to mean "to make certain." Include “that,” as appropriate: "Ensure that there is sufficient white space around illustrations."
-* Never use “ensure” to imply a promise or guarantee: “Use Cloud Manager to ensure that you can provision NFS and CIFS volumes on ONTAP clusters.”
-* Use “confirm” or “verify” when you mean that the user should double-check something that already exists or has happened already: “Verify that NFS is set up on the cluster.”
+* Use "ensure" to mean "to make certain." Include "that," as appropriate: "Ensure that there is sufficient white space around illustrations."
+* Never use "ensure" to imply a promise or guarantee: "Use Cloud Manager to ensure that you can provision NFS and CIFS volumes on ONTAP clusters."
+* Use "confirm" or "verify" when you mean that the user should double-check something that already exists or has happened already: "Verify that NFS is set up on the cluster."
 
 === graphics
 
-Continually evaluate content for opportunities to include helpful illustrations, diagrams, flow charts, screen captures, or other visual references. Graphics often convey complex concepts and steps more clearly than text.
-
-* Include a description of what the illustration is intended to communicate: “The following illustration shows the AC power supply LEDs on the back panel.
-* Refer to the location of the illustration as “following” or “preceding,” not “above” or “below.”
+Refer to <<Use lots of visuals>>.
 
 === grammar
 
 Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 === if not
 
-Don't use “if not” by itself to refer to the previous sentence:
+Don't use "if not" by itself to refer to the previous sentence:
 
-**Rather than this**: “The computer should be off. If not, turn it off.”
+* **Rather than this**: "The computer should be off. If not, turn it off."
 
-**Do this**: "Verify that the computer is off."
+* **Do this**: "Verify that the computer is off."
 
-=== if (versus “whether” or “when”)
+=== if (versus "whether" or "when")
 
-* Use “if” to indicate a condition, such as in "if this, then that" constructions.
-* Use “whether” when there is a stated or implied "or not" condition. To ease translation, it is often best to replace "whether or not" with "whether" alone.
-* Use “when” to indicate a passage of time.
+* Use "if" to indicate a condition, such as in "if this, then that" constructions.
+* Use "whether" when there is a stated or implied "or not" condition. To ease translation, it is often best to replace "whether or not" with "whether" alone.
+* Use "when" to indicate a passage of time.
 
 === imperative voice
 
-* Use imperative voice for steps, directives, requests, and headings for lists of user actions:
-** “On the Working Environments page, click Discover and select ONTAP Cluster.”
-** “Rotate the cam handle so that it is flush against the power supply.”
-* Consider using imperative voice to replace passive voice:
-+
-**Rather than this**: “The required permissions must be provided before you deploy your first cluster.”
-+
-**Do this**: “Provide the required permissions before you deploy your first cluster.”
-* Avoid using imperative voice to embed steps in conceptual and reference information.
-
-=== IP and IPv6 addresses
-
-For IP addresses (including IPv6) in examples, it's safe to include any address that starts with “10.x”.
+Refer to <<Write actively>>.
 
 === future functionality or releases
 
-Don't refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is “not currently supported.”
+Don't refer to the timing or content of upcoming product releases or features, other than to say that a feature or function is "not currently supported."
 
 === KB articles: referring to
 
@@ -355,21 +442,11 @@ Lists of info are usually easier to scan and absorb than blocks of text. Conside
 
 === localization
 
-See <<Write for a global audience>>.
+Refer to <<Write for a global audience>>.
 
 === minimalism
 
-* Do users need this content at this place, at this time?
-* Can I present the content in fewer words without sounding too formal or too casual?
-* Can I shorten or simplify a long sentence or break it into two or more sentences?
-* Can I use a list to make the content more scannable?
-* Can I use a graphic to augment or replace a block of text?
-
-=== NOTE information
-
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for “nice to know” information that isn't required for users to learn about the task or complete the task.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
+Refer to <<Write minimally>>.
 
 === numbers
 
@@ -378,9 +455,7 @@ See <<admonitions>> for other labels that identify content separately from the m
 ** Use words (not numerals) for approximate numbers.
 * Use words for numbers that are less than 10.
 * If a sentence contains a mixture of numbers less than 10 and greater than 10, use Arabic numerals for all numbers.
-* For additional number conventions, see:
-** https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-** https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
+* For additional number conventions, see https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^].
 
 === plagiarism
 
@@ -390,57 +465,49 @@ We document NetApp products and the interaction of NetApp products with third-pa
 
 Prerequisites identify the conditions that must exist or the actions that users must have completed before they start the current task.
 
-* Identify the nature of the content with a heading, such as “Prerequisites,” “Before you begin,” or “Before you get started.”
+* Identify the nature of the content with a heading, such as "Prerequisites," "Before you begin," or "Before you get started."
 * Use passive voice for prerequisite wording if it makes sense to do so:
-** “NFS or CIFS must be set up on the cluster.”
-** “You must have the cluster management IP address and the password for the admin user account to add the cluster to Cloud Manager.”
-* Clarify the prerequisite as needed: “NFS or CIFS must be set up on the cluster. You can set up NFS and CIFS using System Manager or the CLI.”
+** "NFS or CIFS must be set up on the cluster."
+** "You must have the cluster management IP address and the password for the admin user account to add the cluster to Cloud Manager."
+* Clarify the prerequisite as needed: "NFS or CIFS must be set up on the cluster. You can set up NFS and CIFS using System Manager or the CLI."
 * Consider other ways to present the information, for example whether it would be appropriate to reword the content as the first step in the current task:
-** Prerequisite: “You must have the required permissions before you deploy your first cluster.”
-** Step: “Provide the required permissions to deploy your first cluster.”
+** Prerequisite: "You must have the required permissions before you deploy your first cluster."
+** Step: "Provide the required permissions to deploy your first cluster."
 
-=== prior (versus “before,” “previous,” or “preceding”)
+=== prior (versus "before," "previous," or "preceding")
 
-* If possible, replace “prior” with “before.”
-* If you can't use “before,” use “prior” as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
-* Use “previous” to indicate something that occurred at an unspecified time earlier.
-* Use “preceding” to indicate something that occurred immediately beforehand.
+* If possible, replace "prior" with "before."
+* If you can't use "before," use "prior" as an adjective to refer to something that occurred earlier in time or with a higher order of importance.
+* Use "previous" to indicate something that occurred at an unspecified time earlier.
+* Use "preceding" to indicate something that occurred immediately beforehand.
 
 === punctuation
 
 Keep it simple. In general, the more punctuation included in a sentence, the more brain cells it takes to understand.
 
-* Use a serial comma (Oxford comma) before the conjunction (“and” or “or”) in a narrative list of three or more items.
+* Use a serial comma (Oxford comma) before the conjunction ("and" or "or") in a narrative list of three or more items.
 * Limit use of semicolons and colons.
 * Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 ** https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-** https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 ** https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
 === since
 
-Use “since” to indicate a passage of time. Don't use "since" to mean "because."
+Use "since" to indicate a passage of time. Don't use "since" to mean "because."
 
 === spelling
 
 Except where noted otherwise, follow the grammar, punctuation, and spelling conventions detailed in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^]
-* https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style^]
 * https://www.merriam-webster.com/[Merriam-Webster Dictionary Online^]
 
-=== that (versus “which” or “who”)
+=== that (versus "which" or "who")
 
-* Use “that” (without a trailing comma) to introduce clauses that are required for the sentence to make sense.
-* Use “that” even if the sentence is clear in English without it: "Verify that the computer is off."
-* Use “which” (with a trailing comma) to introduce clauses that add supporting information but are not required for the sentence to make sense.
-* Use “who” to introduce clauses referring to people.
-
-=== TIP information
-
-Use TIP sparingly, if at all, because our policy is to always document best-practice information by default. If necessary, use TIP to contain best-practice information that helps users use a product or complete a step or task easily and efficiently.
-
-See <<admonitions>> for other labels that identify content separately from the main content flow.
+* Use "that" (without a trailing comma) to introduce clauses that are required for the sentence to make sense.
+* Use "that" even if the sentence is clear in English without it: "Verify that the computer is off."
+* Use "which" (with a trailing comma) to introduce clauses that add supporting information but are not required for the sentence to make sense.
+* Use "who" to introduce clauses referring to people.
 
 === trademarks
 
@@ -453,47 +520,51 @@ We don't include trademark symbols in most of our technical content because the 
 
 === user interface
 
-Rely on the interface as much as possible to guide the user.
+When you are documenting a user interface, rely on the interface as much as possible to guide the user.
 
-==== General guidelines
-
-Our style for documenting UIs is simple and minimal:
-
-* Assume that the user is using the interface while reading the content.
-* Rely on the interface to guide the user:
+.General guidelines
+Use a simple and mimimal style when documenting UIs.
+[%collapsible]
+====
+* Assume that the user is using the interface while reading the content:
 ** Don't walk the user through a wizard or screen step by step. Only call out important things that are not apparent from the interface.
-** Don't include “click OK” or “click Save” or “the volume is created” or anything else that's obvious to someone doing the task.
+** Don't include "click OK" or "click Save" or "the volume is created" or anything else that's obvious to someone doing the task.
 ** Assume success. Unless you expect an operation to fail most of the time, do not document the failure path. Assume that the interface provides proper guidance.
-* Don't use “click” at all. Always use “select” because that word covers mouse, touch, keyboard, and any other way of making a choice.
+* Don't use "click" at all. Always use "select" because that word covers mouse, touch, keyboard, and any other way of making a choice.
 * Focus content on a workflow that addresses a customer use case and on getting the user to the right place in the interface to start the workflow.
 * Always document the one best way to achieve the user goal.
 * If the workflow requires a significant decision, make sure to document a decision rule.
 * Use the minimum number of steps necessary for most users most of the time.
+====
+//end snippet
 
-==== Naming UI elements
-
-Avoid documenting to the level of granularity that requires naming UI elements. Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, “Select the desired volume” or “Select ‘Use existing volume.'” There is no need to name menus or radio buttons or checkboxes, just use the label.
+.Naming UI elements
+Avoid documenting to the level of granularity that requires naming UI elements. 
+[%collapsible]
+====
+Rely on the interface to guide the user through the specifics of the interaction. If you must get that specific, name the label on the element. For example, "Select the desired volume" or "Select 'Use existing volume'." There is no need to name menus or radio buttons or checkboxes, just use the label.
 
 For icons that users must select, use an image of the icon. Don't try to name it. This rule applies to icons like the arrow, pencil, gear, kabob, hamburger, and so on.
+====
+//end snippet
 
-==== Representing displayed labels
+.Representing displayed labels
+Follow the spelling and capitalization used by the user interface when identifying labels. 
+[%collapsible]
+====
+If a label is followed by ellipses, do not include the ellipses when naming the object. Encourage developers to use title-style capitalization for user interface labels, to make writing about them easier.
+====
+//end snippet
 
-Follow the spelling and capitalization used by the user interface when identifying labels. If a label is followed by ellipses, do not include the ellipses when naming the object. Encourage developers to use title-style capitalization for user interface labels, to make writing about them easier.
+.Using screen captures
+Use screen captures sparingly.
+[%collapsible]
+====
+An occasional screen capture ("screenshot") helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
+====
+//end snippet
 
-==== Using screen captures
+=== while (versus "although")
 
-An occasional screen capture (“screenshot”) helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
-
-=== while (versus “although”)
-
-* Use “while” to indicate something occurring in time.
-* Use “although” to represent an activity that occurs at nearly the same time or shortly after another activity.
-
-=== workflow
-
-Users read our content to accomplish a specific goal. Users want to find the content they need, accomplish their goals, and go home to their families. Our job is not to document products or features, our job is to document user goals. Workflows are the most direct way to help users accomplish their goals.
-
-A workflow is a series of steps or subtasks that describes how to achieve a user goal. The scope of a workflow is a complete goal.
-
-For example, the steps to create a volume would not be a workflow, because creating a volume in itself is not a complete goal. The steps to make storage available to an ESX server could be a workflow. The steps would include not only creating a volume, but exporting the volume, setting any necessary permissions, creating a network interface, and so on.
-Workflows are derived from customer use cases. A workflow shows only the one best way to achieve the goal.
+* Use "while" to indicate something occurring in time.
+* Use "although" to represent an activity that occurs at nearly the same time or shortly after another activity.
