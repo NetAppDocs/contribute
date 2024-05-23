@@ -315,6 +315,9 @@ Follow these guidelines to write for a global audience:
 
 == A to Z guidelines
 
+=== acronyms and abbreviations
+Use well-known acronyms and abbreviations for familiarity but avoid obscure ones that might negatively affect clarity and findability. For additional conventions for acronyms and abbreviations, see the https://learn.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide^].
+
 === active voice (versus passive voice)
 
 Refer to <<Write actively>>.
