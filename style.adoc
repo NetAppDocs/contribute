@@ -338,6 +338,8 @@ TIPs should be used sparingly, if at all, as our policy is to document best-prac
 * CAUTION
 Use` CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
 
+Refer to syntax samples in https://docs.netapp.com/us-en/docs-help/syntax/adoc-syntax-formatting-block[Docs help^].
+
 .Additional Guidelines
 
 * Only use supported admonitions. Any other kind of formatting is not supported.
