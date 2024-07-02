@@ -336,9 +336,7 @@ Use NOTE to highlight important information that must stand out from the rest of
 TIPs should be used sparingly, if at all, as our policy is to document best-practice information by default. If necessary, use TIP to highlight best-practice information that helps users use a product or complete a step or task more easily and efficiently. A TIP should provide useful advice or shortcuts that can enhance the user's experience.
 
 * CAUTION
-Use` CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
-
-Refer to syntax samples in https://docs.netapp.com/us-en/docs-help/syntax/adoc-syntax-formatting-block[Docs help^].
+Use CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
 
 .Additional Guidelines
 
