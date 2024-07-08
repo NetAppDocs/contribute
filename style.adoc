@@ -325,19 +325,26 @@ Refer to <<Write actively>>.
 [id=admonitions]
 === admonitions
 
-Use the following labels to identify content separately from the main content flow:
+Admonitions are a powerful tool when used correctly. They can draw attention to important information, provide helpful tips, or warn users about potential hazards. When overused, they lose their impact and can lead to user fatigue. Here are some guidelines to ensure the effective use of admonitions.
+
+Use the following labels to separate admonitions from the main content flow:
 
 * NOTE
-+
-Use NOTE for important information that must be distinct from the rest of the text. Avoid using NOTE for "nice to know" information that isn't required for users to learn about the task or complete the task.
+Use NOTE to highlight important information that must stand out from the rest of the text. However, avoid using NOTE for "nice to know" information that isn't essential for users to understand or complete a task. The purpose of a NOTE is to draw the reader's attention to critical points that they might otherwise overlook.
 
 * TIP
-+
-Use TIP sparingly, if at all, because our policy is to always document best-practice information by default. If necessary, use TIP to contain best-practice information that helps users use a product or complete a step or task easily and efficiently.
+TIPs should be used sparingly, if at all, as our policy is to document best-practice information by default. If necessary, use TIP to highlight best-practice information that helps users use a product or complete a step or task more easily and efficiently. A TIP should provide useful advice or shortcuts that can enhance the user's experience.
 
 * CAUTION
-+
-Use CAUTION to warn users about conditions or procedures that can cause personal injury that is not lethal or extremely hazardous.
+Use CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
+
+.Additional Guidelines
+
+* Only use supported admonitions. Any other kind of formatting is not supported.
+* Avoid overusing admonitions. Overuse can lead to users skipping over these important sections because they see them as the "junk drawer" of our docs. 
+* As a rule of thumb, limit the number of admonitions to a maximum of 3 per page.
+* Provide clear and concise information within the admonition. The message should be brief and to the point, allowing users to quickly understand the importance of the information provided.
+* Avoid AsciiDoc admonitions in a table. If content needs to be identified as a note, tip, or caution, use Note:, Tip:, or Caution: as an inline lead-in to the text.
 
 === after (versus "once")
 
