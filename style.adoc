@@ -443,6 +443,7 @@ Refer to KB (NetApp Knowledgebase) articles in content when appropriate. For res
 Lists of info are usually easier to scan and absorb than blocks of text. Consider ways to simplify complex info by presenting it in list form. Here are some general guidelines, but use your judgment:
 
 * Make sure that the reason for the list is clear. Introduce the list with a complete sentence, a sentence fragment with a colon, or a heading.
+* When using a list inside a list, limit the structure to at most two levels of depth to maintain clarity and readability. If you find yourself needing more levels, consider reorganizing the content to make it easier for users to navigate and understand.
 * Lists should have between two and seven entries. In general, the shorter the info in each entry, the more entries you can add while keeping the list scannable.
 * List entries should be as scannable as possible. Avoid blocks of text that get in the way of keeping list entries scannable.
 * List entries should start with a capital letter, and list entries should be grammatically parallel. For example, start each entry with a noun or a verb:
