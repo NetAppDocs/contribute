@@ -338,6 +338,13 @@ TIPs should be used sparingly, if at all, as our policy is to document best-prac
 * CAUTION
 Use CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
 
+* BEST PRACTICE
+Use BEST PRACTICE to highlight optimal ways to complete tasks or use a product. These are not mere suggestions, but strategies that have been validated by experts or industry standards.
+
+** *What makes a BEST PRACTICE?* It's an actionable, task-specific strategy that offers clear benefits and is backed by reliable sources.
+** *When can I use them?* You can use BEST PRACTICE for all content types and all audiences. Like TIPS, use them sparingly to maintain their significance.
+** *How do I format them?* Present BEST PRACTICE in a consistent, user-friendly format. This could be a bullet list, numbered list, or paragraph, depending on the context.
+
 .Additional Guidelines
 
 * Only use supported admonitions. Any other kind of formatting is not supported.
