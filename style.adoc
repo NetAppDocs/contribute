@@ -327,7 +327,11 @@ Refer to <<Write actively>>.
 
 Admonitions are a powerful tool when used correctly. They can draw attention to important information, provide helpful tips, or warn users about potential hazards. When overused, they lose their impact and can lead to user fatigue. Here are some guidelines to ensure the effective use of admonitions.
 
-Use the following labels to separate admonitions from the main content flow:
+
+
+
+.Standard admonitions
+Three standard admonitions use custom labels. The labels are NOTE, TIP, and CAUTION. These three standard admonitions are formatted distinctly from normal text, and their labels are always written in uppercase in the AsciiDoc source. 
 
 * NOTE
 Use NOTE to highlight important information that must stand out from the rest of the text. However, avoid using NOTE for "nice to know" information that isn't essential for users to understand or complete a task. The purpose of a NOTE is to draw the reader's attention to critical points that they might otherwise overlook.
@@ -338,12 +342,24 @@ TIPs should be used sparingly, if at all, as our policy is to document best-prac
 * CAUTION
 Use CAUTION to warn users about conditions or actions that can lead to undesirable outcomes, including personal injury or damage to equipment. CAUTION should be used to draw attention to potential hazards that the user must avoid to prevent harm or disruption.
 
-* BEST PRACTICE
-Use BEST PRACTICE to highlight optimal ways to complete tasks or use a product. These are not mere suggestions, but strategies that have been validated by experts or industry standards.
+.Best Practice admonition
+The Best Practice admonition is not a custom admonition label but can be used as a standalone formatting convention. Use Best Practice to highlight optimal ways to complete tasks or use a product. These are not mere suggestions, but strategies that have been validated by experts or industry standards.
 
-** *What makes a BEST PRACTICE?* It's an actionable, task-specific strategy that offers clear benefits and is backed by reliable sources.
-** *When can I use them?* You can use BEST PRACTICE for all content types and all audiences. Like TIPS, use them sparingly to maintain their significance.
-** *How do I format them?* Present BEST PRACTICE in a consistent, user-friendly format. This could be a bullet list, numbered list, or paragraph, depending on the context.
+* *What makes a Best Practice?*
++
+It's an actionable, task-specific strategy that offers clear benefits and is backed by reliable sources.
+
+* *When can I use Best Practice?*
++
+You can use Best Practice for all content types and all audiences. Like TIPS, use them sparingly to maintain their significance.
+
+* *How do I format Best Practice?*
++
+To use the Best Practice format, apply sentence-style capitalization, boldface the term Best Practice, followed by a colon and a space.
++
+Present Best Practice in a consistent, user-friendly format. This could be a bullet list, numbered list, or paragraph, depending on the context. For example, *Best Practice*: Always test your configuration changes in a staging environment before applying them to production.
+
+
 
 .Additional Guidelines
 
