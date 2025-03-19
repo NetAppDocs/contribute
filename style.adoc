@@ -356,8 +356,6 @@ To use the Best practice format, apply sentence-style capitalization, boldface t
 +
 Present Best practice in a consistent, user-friendly format. This could be a bulleted list, numbered list, or paragraph, depending on the context. For example, *Best practice*: Always test your configuration changes in a staging environment before applying them to production.
 
-
-
 .Additional Guidelines
 
 * Only use supported admonitions. Any other kind of formatting is not supported.
@@ -379,6 +377,10 @@ Present Best practice in a consistent, user-friendly format. This could be a bul
 === and/or
 
 Choose the more precise term if there is one. If neither term is more precise than the other, use "and/or."
+
+=== API
+
+An Application Programming Interface (API) refers to a single interface that provides access to a specific product or service. Within a large product API, use the term _API_ to refer to each set of endpoints associated with a resource type or component. When referring to multiple distinct interfaces, use the term _APIs_.
 
 === as
 
