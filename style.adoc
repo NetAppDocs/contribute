@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar
 permalink: style.html
+keywords: style, netapp docs style, netapp docs writing style, voice
+summary: Our style is conversational and empathetic, but we stay professional and get to the point.
 ---
 
 = Style guide for NetApp docs
