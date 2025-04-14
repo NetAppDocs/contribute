@@ -555,9 +555,9 @@ We don't include trademark symbols in most of our technical content because the 
 
 === user interface
 
-When you are documenting a user interface, rely on the interface as much as possible to guide the user.
+When you are documenting a user interface, rely on the interface as much as possible to guide the user. For specific UX writing style considerations, see https://https://review.docs.netapp.com/us-en/ux-writing/index.html[UX writing style guide^].
 
-.General guidelines
+////.General guidelines
 Use a simple and mimimal style when documenting UIs.
 [%collapsible]
 ====
@@ -598,6 +598,7 @@ Use screen captures sparingly.
 An occasional screen capture ("screenshot") helps users be confident that they are in the right place in an interface when starting or changing interfaces during a workflow. Don't use screen captures to show what data to enter or what value to select.
 ====
 //end snippet
+////
 
 === while (versus "although")
 
