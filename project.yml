@@ -1,8 +1,10 @@
 ---
+jekyll: legal-external
 settings:
   name: Contributor's Guide
   internal:
     pdf_enabled: true
+    fullbuild_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
