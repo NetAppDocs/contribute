@@ -77,10 +77,7 @@ If you're comfortable editing the content yourself, you can submit the exact doc
 
 As an outside contributor, you won't be able to publish the change directly. The content lead will review the changes, make any required edits, and then merge the changes. You'll get an email notification from GitHub when this happens.
 
-If you need help with our writing style or source syntax, you can use these resources:
-
-* link:style.html[Style guide for NetApp docs]
-* link:asciidoc_syntax.html[AsciiDoc syntax]
+If you need help editing the source file, you can link:asciidoc_syntax.html[learn about AsciiDoc syntax].
 
 .Steps
 

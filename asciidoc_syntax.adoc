@@ -464,8 +464,6 @@ curl -s https:///v1/ \
 If you have a chunk of content that's repeated across different pages, you can easily write it once and reuse it across those pages. Reuse is possible from within the same repository and across repositories. Here's how it works.
 
 . Create a folder in your repository named _include
-+
-https://github.com/NetAppDocs/cloud-tiering[For example, take a look at the Cloud Tiering repository^].
 
 . Add a .adoc file in that folder that includes the content that you'd like to reuse.
 +
@@ -485,9 +483,6 @@ For example:
 +
  include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
-For example:
-+
- include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
 
 That's it!
 
